@@ -1,0 +1,23 @@
+﻿@{
+    var routeData = Context.Request.RouteValues;
+    var controller = routeData["controller"] as string;
+    var action = routeData["action"] as string;
+
+    if (controller == "Admin")
+    {
+        Layout = "_AdminLayout";
+    }
+    else if (controller == "Home")
+    {
+       Layout = "_Layout";
+    }
+    else if (controller == "Shop")
+    {
+        Layout = "_ShopLayout";
+    }
+
+    else
+    {
+        Layout = "_Layout";
+    }
+}

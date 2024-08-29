@@ -1,0 +1,36 @@
+@{
+    ViewData["Title"] = "Index";
+}
+@if (TempData["success"] != null )
+{
+     <div class="container mt-5">
+    <div class="alert alert-success" role="alert">
+        @TempData["success"]
+        <a href="/Seed/Build" class="btn btn-secondary mx-4">Ekle</a>
+        <a href="/Seed/Delete" class="btn btn-secondary mx-4">Tüm Ürünleri Sil</a>
+    </div>  
+    </div>
+    
+}
+else if (TempData["error"] != null)
+{
+    <div class="container mt-5">
+    <div class="alert alert-danger" role="alert">
+        @TempData["error"]
+        <a href="/Seed/Build" class="btn btn-secondary mx-4">Ekle</a>
+        <a href="/Seed/Delete" class="btn btn-secondary mx-4">Tüm Ürünleri Sil</a>
+    </div>
+    </div>
+}
+else
+{
+    <div class="container mt-5">
+        <div class="alert alert-info" role="alert">
+        Ürün Ekleme Seed Sayfası
+        <a href="/Seed/Build" class="btn btn-secondary mx-4">Ekle</a>
+        <a href="/Seed/Delete" class="btn btn-dark mx-4">Tüm Ürünleri Sil</a>
+
+    </div>
+</div>
+
+}

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+   
+}
+ @model List<Product>
+
+    @foreach (var pd in Model)
+    {
+        <h1>@pd.Name</h1>
+        <img src="@pd.ImageUrl" ></img>
+        
+    }
+
+<partial name="./componets/_slider.cshtml" />
+<partial name="./componets/_category.cshtml" />
+<partial name="./componets/_tabs.cshtml" />
+<partial name="./componets/_banner.cshtml" />
+<partial name="./componets/_features.cshtml" />
+<partial name="./componets/_offer.cshtml" />
+<partial name="./componets/_allproducts.cshtml"   />
+<partial name="./componets/_testimonial.cshtml" />
+<partial name="./componets/_brand.cshtml" />
+<partial name="./componets/_instagram.cshtml" />
+<partial name="./componets/_services.cshtml" />
+
+
+

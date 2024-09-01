@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyMvcAuthApp.Data;
 using MyMvcAuthApp.Models;
@@ -11,12 +12,40 @@ namespace auth.Controllers
     public class SeedController : Controller
     {
         private readonly ApplicationDbContext _db;
-        public SeedController(ApplicationDbContext db)
+    
+       private readonly UserManager<IdentityUser> _userManager;
+
+
+        public SeedController(ApplicationDbContext db , UserManager<IdentityUser> userManager )
+
         {
+            _userManager = userManager;
             _db = db;
+
+         
         }
         public IActionResult Index()
         {
+            return View();
+        }
+        public async Task<IActionResult> UserCreate()
+        {
+            for (int i = 0; i < 10; i++)
+            {
+              await _userManager.CreateAsync(
+                new IdentityUser
+                {
+                    UserName = String.Format("orhanseyran{0}@gmail.com", Random.Shared.Next(1, 1000)),
+                    Email = String.Format("orhanseyran{0}@gmail.com", Random.Shared.Next(1, 1000)),
+                    EmailConfirmed = true,
+                },  "Admin123456."
+                );
+                
+            }
+
+
+                
+                
             return View();
         }
         public IActionResult Build()

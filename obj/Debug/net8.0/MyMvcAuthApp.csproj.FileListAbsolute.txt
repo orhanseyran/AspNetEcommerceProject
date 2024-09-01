@@ -262,4 +262,5 @@ F:\aspnetderslerim\PROJE7\MyMvcAuthApp\obj\Debug\net8.0\refint\MyMvcAuthApp.dll
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\obj\Debug\net8.0\MyMvcAuthApp.pdb
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\obj\Debug\net8.0\MyMvcAuthApp.genruntimeconfig.cache
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\obj\Debug\net8.0\ref\MyMvcAuthApp.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\obj\Debug\net8.0\MyMvcAuthApp.sourcelink.json
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\app.db

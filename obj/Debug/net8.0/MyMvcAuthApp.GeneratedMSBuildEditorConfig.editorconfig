@@ -50,8 +50,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUHJvZHVjdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/RoleAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/RoleEdits.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZUVkaXRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/RoleManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUm9sZU1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXBkYXRlUHJvZHVjdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/UserAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/UserEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlckVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Admin/UserManage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVXNlck1hbmFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Home/componets/_allproducts.cshtml]
@@ -108,6 +148,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Seed/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VlZFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Shared/adminhead/_header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluaGVhZFxfaGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Shared/adminhead/_navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGFkbWluaGVhZFxfbmF2YmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [f:/aspnetderslerim/PROJE7/MyMvcAuthApp/Views/Shared/Error.cshtml]

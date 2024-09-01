@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "RoleAdd";
+}
+@model Role
+<style>
+  body.dark-only .form-control {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+</style>
+<div class="row d-flex justify-content-center align-content-center">
+  <h2 class="text-center pt-2">Role Ekle</h2>
+  <div class="col-md-6 mt-2">
+      <form asp-action="RoleAdd" method="POST">
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Role Adı</label>
+    <input type="text" asp-for="UserRole" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Müşteri">
+
+  </div>
+
+  <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
+
+  </div>
+
+</div>
+
+
+
+

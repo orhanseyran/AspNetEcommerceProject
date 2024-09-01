@@ -1,0 +1,62 @@
+@{
+    ViewData["Title"] = "UserAdd";
+}
+
+@model AddUser
+
+<div class="container">
+    <div class="row d-flex justify-content-center align-content-center">
+        <div class="col-md-6">
+            <div class="card mt-5 border-0 shadow-lg rounded-3 p-4">
+                <h2 class="text-center mb-2">Kullanıcı Ekle</h2>
+
+                    <form asp-action="UserAdd">
+                        <div class="mb-3">
+                            <label for="" class="form-label">Kullanıcı Adı</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                            
+                            asp-for="UserName"
+                                aria-describedby="helpId"
+                                placeholder=""
+                            />
+                      
+                        </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email</label>
+                        <input type="email" asp-for="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Password" class="form-label">Şifre</label>
+                        <input type="password"  asp-for="Password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Role Seç</label>
+                        <select
+                        class="form-select form-select-lg"
+                        asp-for="Role"
+                        id=""
+                        >
+                        @foreach (var role in @ViewBag.Role)
+                                {
+                        <option value="@role.Name" >@role.Name</option>
+
+                            }
+                        </select>
+                    
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    
+        </div>
+
+        </div>
+        
+
+
+    </div>
+</div>

@@ -1,0 +1,349 @@
+@{
+    ViewData["Title"] = "UpdateProduct";
+}
+@{
+    ViewData["Title"] = "Ürün Ekle";
+}
+@model  Product
+<style>
+    /* Başlık */
+    h2 {
+        color: #f89500;
+
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    /* Form grupları */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+
+
+    /* Giriş alanları */
+    .form-control {
+        border-radius: 8px;
+        border: 2px solid #ddd;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 12px;
+
+    
+        font-size: 1rem;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+
+
+    .form-control:focus {
+        border-color: #ee940c;
+        box-shadow: 0 0 4px rgba(238, 148, 12, 0.5);
+        outline: none;
+    }
+
+    /* Özelleştirilmiş dosya yükleme */
+    .custom-file-upload {
+        display: inline-block;
+        padding: 12px 24px;
+        cursor: pointer;
+        border: 2px solid #ffa600;
+        border-radius: 8px;
+        color: #ffffff;
+        background-color: #ee940c;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        transition: background-color 0.3s, color 0.3s, transform 0.2s;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .custom-file-upload:hover {
+        background-color: #d87a00;
+        color: #ffffff;
+        transform: scale(1.05);
+    }
+
+    /* Resim önizleme alanı */
+    .img-preview-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .img-preview {
+        width: 120px;
+        height: 120px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        padding: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        object-fit: cover;
+    }
+
+    /* Buton */
+    .btn-primary {
+        background-color: #ee940c !important;
+        border-color: #ee940c;
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+        padding: 12px;
+        border-radius: 8px;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #d87a00 !important;
+        border-color: #d87a00;
+    }
+    body.dark-only .form-control{
+        background-color: white;
+    }
+    body.dark-only .form-select{
+        background-color: white;
+    }
+    body.dark-only .form-select {
+    color: rgb(0 0 0 / 60%);
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
+<br>
+<form method="post" action="/Admin/UpdateProduct/@Model.Id" enctype="multipart/form-data">
+    <div class="container mt-5">
+        <div style="background-color: #ffffff; border-radius: 15px;" class="accordion mt-5" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                        aria-controls="panelsStayOpen-collapseOne">
+                        <i style="font-size: 28px;" class="fas fa-plus-circle mb-3"></i>
+                        <h2 class="text-center">Ürün Bilgileri </h2>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+
+                        <div class="row ">
+                            <div class="col-md-12">
+
+                                <div class="form-group">
+                                    <label for="urunAdi">Ürün Adı</label>
+                                    <input type="text" asp-for="Name" class="form-control" placeholder="Ürün adını girin"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="urunFiyati">Ürün Fiyatı</label>
+                                    <input type="number" asp-for="Price" class="form-control" id="urunFiyati"
+                                        placeholder="Ürün fiyatını girin" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="urunAciklamasi">Ürün Açıklaması</label>
+                                    <textarea class="form-control" asp-for="Description" id="urunAciklamasi" rows="3"
+                                        placeholder="Ürün açıklamasını girin"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label for="urunKategori">Kategori</label>
+                                    <select asp-for="Category" class="form-control" required>
+                                        <option value="">Kategori seçin</option>
+                                        <option value="elektronik">Elektronik</option>
+                                        <option value="giyim">Giyim</option>
+                                        <option value="kitap">Kitap</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="urunResmi">Ürün Resimleri</label>
+                                    <label class="custom-file-upload">
+                                        <input type="file" id="urunResmi" name="Image" multiple accept="image/*"
+                                            style="display:none;">
+                                        Resim Seç
+                                    </label>
+                                    <div id="resimOnizleme" class="img-preview-container mt-2"><img src="@Model.ImageUrl" width="60" alt=""></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                        <i style="font-size: 28px;" class="fas fa-plus-circle mb-3"></i>
+                        <h2 class="text-center">Stok Ve Marka Bilgileri </h2>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <label for="" class="form-label">Stok Miktarı</label>
+                                <input type="number" asp-for="stock" class="form-control" id="" aria-describedby="helpId"
+                                    placeholder="" />
+                                <small id="helpId" class="form-text text-muted">Help text</small>
+
+
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Marka Bilgileri</label>
+                                    <select asp-for="Brand" class="form-select form-select-lg"  id="">
+                                        <option value="kitap" selected>Select one</option>
+                                        <option value="kitap">New Delhi</option>
+                                        <option value="kitap">Istanbul</option>
+                                        <option value="kitap">Jakarta</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                        <i style="font-size: 28px;" class="fas fa-plus-circle mb-3"></i>
+
+                        <h2 class="text-center">Gönderim Bilgileri </h2>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-md-3">
+
+                                <label for="" class="form-label">Kargo Desi Miktarı</label>
+                                <input type="number" asp-for="Cargo" class="form-control"  id="" aria-describedby="helpId"
+                                    placeholder="" />
+                                <small id="helpId" class="form-text text-muted">Help text</small>
+
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Gönderim Türü</label>
+                                    <select required asp-for="ShipDetail" class="form-select form-select-lg" name="" id="gönderimTuru">
+                                        <option selected>Gönderim Türü</option>
+                                        <option value="Dijital">Dijital Ürün</option>
+                                        <option value="Fiziki">Fiziki Gönderim</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                            <div id="kargo" style="display:none;" class="col-md-3">
+                                <div class="mb-3">
+                                    <label for="" class="form-label">Kargo Firması</label>
+                                    <select required  asp-for="Cargo" class="form-select form-select-lg" name="" id="">
+                                        <option selected>Select one</option>
+                                        <option value="deneme">New Delhi</option>
+                                        <option value="deneme">Istanbul</option>
+                                        <option value="deneme">Jakarta</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+
+
+                            <div id="sehir" style="display:none;" class="col-md-3">
+                                <div class="mb-3">
+                                    <label for=""  class="form-label">Gönderilen Şehir</label>
+                                    <select asp-for="Sehir" class="form-select form-select-lg" name="" id="">
+                                        <option selected>Select one</option>
+                                        <option value="deneme">New Delhi</option>
+                                        <option value="deneme">Istanbul</option>
+                                        <option value="deneme">Jakarta</option>
+                                    </select>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script>
+        document.getElementById('gönderimTuru').addEventListener('change', function() {
+            // Select elementini seç
+            var selectElement = document.getElementById('gönderimTuru');
+            // Seçili değeri al
+            var selectedValue = selectElement.value;
+            // Değeri ekrana yazdır
+             if (selectedValue == "Dijital")
+            {
+                document.getElementById("kargo").style.display = "none";
+                document.getElementById("sehir").style.display = "none";
+
+            }
+            else if (selectedValue == "Fiziki")
+            {
+                document.getElementById("kargo").style.display = "block";
+                document.getElementById("sehir").style.display = "block";
+            }
+        
+
+        });
+    </script>
+
+
+        <button type="submit" class="btn btn-primary btn-block mt-4">Ürünü Düzenle</button>
+        <a href="/Admin/Pruducts" class="btn btn-outline-success mt-4 mx-2">Geri Dön</a>
+
+    </div>
+
+
+</form>
+<br>
+<br>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- JavaScript -->
+<script>
+    document.querySelector('.custom-file-upload').addEventListener('click', function () {
+        document.getElementById('urunResmi').click();
+    });
+
+    document.getElementById('urunResmi').addEventListener('change', function (event) {
+        const previewContainer = document.getElementById('resimOnizleme');
+        previewContainer.innerHTML = ''; // Önceki resimleri temizle
+        const files = event.target.files;
+
+        for (let i = 0; i < files.length; i++) {
+            const file = files[i];
+            const reader = new FileReader();
+
+            reader.onload = function (e) {
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                img.classList.add('img-preview');
+                previewContainer.appendChild(img);
+            }
+
+            reader.readAsDataURL(file);
+        }
+    });
+
+
+</script>

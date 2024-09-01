@@ -4,12 +4,6 @@
 }
  @model List<Product>
 
-    @foreach (var pd in Model)
-    {
-        <h1>@pd.Name</h1>
-        <img src="@pd.ImageUrl" ></img>
-        
-    }
 
 <partial name="./componets/_slider.cshtml" />
 <partial name="./componets/_category.cshtml" />

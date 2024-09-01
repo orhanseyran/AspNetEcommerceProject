@@ -3,6 +3,11 @@
 @{
     ViewData["Title"] = "Register";
 }
+@if (User.Identity.IsAuthenticated)
+{
+    <meta http-equiv="refresh" content="0;url=@Url.Page("/Index")" />
+    
+}
 
 <h1>@ViewData["Title"]</h1>
 

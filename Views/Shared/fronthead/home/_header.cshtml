@@ -48,21 +48,43 @@
                         <div class="header-top-right-inner d-flex justify-content-end">
 
                             <!-- Header User Start -->
+                    @if (User.Identity.IsAuthenticated )
+                        {
                             <div class="ec-header-user dropdown">
-                                <button class="dropdown-toggle" data-bs-toggle="dropdown"><img
-                                        src="assets/images/icons/user_5.svg" class="svg_img top_svg" alt="" /><span
-                                        class="ec-btn-title">Login</span></button>
+                                <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                                    <img src="~/assets/images/icons/user_5.svg" class="svg_img top_svg" alt="User Icon" />
+                                    <span class="ec-btn-title">Merhaba, @User.Identity.Name</span>
+                                </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                    <li><a class="dropdown-item" href="register.html">Register</a></li>
-                                    <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
-                                    <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                    <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+                                    <li><a class="dropdown-item" href="orders.html">Orders</a></li>
+                                        <li class="nav-item">
+                                        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                            <button  type="submit" class="nav-link btn btn-link text-dark">Çıkış Yap</button>
+                                        </form>
+                                    </li>
                                 </ul>
                             </div>
+                        }
+                        else
+                        {
+                            <div class="ec-header-user dropdown">
+                                <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                                    <img src="~/assets/images/icons/user_5.svg" class="svg_img top_svg" alt="User Icon" />
+                                    <span class="ec-btn-title">Login</span>
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-right">
+                                      <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Üye Ol</a>
+                                      <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Giriş Yap</a>
+                                </ul>
+                            </div>
+                        }
+            
                             <!-- Header User End -->
                             <!-- Header wishlist Start -->
                             <div class="ec-header-wishlist">
                                 <a href="#">
-                                    <div class="top-icon"><img src="assets/images/icons/pro_wishlist.svg"
+                                    <div class="top-icon"><img src="~/assets/images/icons/pro_wishlist.svg"
                                             class="svg_img top_svg" alt="" /></div>
                                     <span class="ec-btn-title">wishlist</span>
                                 </a>
@@ -76,7 +98,7 @@
                             <!-- Header User Start -->
                             <div class="ec-header-user dropdown">
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown"><img
-                                        src="assets/images/icons/user_5.svg" class="svg_img header_svg" alt="" /></button>
+                                        src="~/assets/images/icons/user_5.svg" class="svg_img header_svg" alt="" /></button>
                                 <ul class="dropdown-menu dropdown-menu-right">
                                     <li><a class="dropdown-item" href="register.html">Register</a></li>
                                     <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
@@ -86,14 +108,14 @@
                             <!-- Header User End -->
                             <!-- Header Cart Start -->
                             <a href="#" class="ec-header-btn ec-header-wishlist">
-                                <div class="header-icon"><img src="assets/images/icons/wishlist.svg"
+                                <div class="header-icon"><img src="~/assets/images/icons/wishlist.svg"
                                         class="svg_img header_svg" alt="" /></div>
                                 <span class="ec-header-count ec-wishlist-count">0</span>
                             </a>
                             <!-- Header Cart End -->
                             <!-- Header Cart Start -->
                             <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                                <div class="header-icon"><img src="assets/images/icons/cart_5.svg"
+                                <div class="header-icon"><img src="~/assets/images/icons/cart_5.svg"
                                         class="svg_img header_svg" alt="" /></div>
                                 <span class="ec-header-count ec-cart-count">3</span>
                             </a>
@@ -118,8 +140,8 @@
                         <!-- Ec Header Logo Start -->
                         <div class="align-self-center ec-header-logo ">
                             <div class="header-logo">
-                                <a href="/"><img src="assets/images/logo/logo-5.png" alt="Site Logo" /><img
-                                        class="dark-logo" src="assets/images/logo/dark-logo-5.png" alt="Site Logo"
+                                <a href="/"><img src="~/assets/images/logo/logo-5.png" alt="Site Logo" /><img
+                                        class="dark-logo" src="~/assets/images/logo/dark-logo-5.png" alt="Site Logo"
                                         style="display: none;" /></a>
                             </div>
                         </div>
@@ -151,7 +173,7 @@
                                 <!-- Header wishlist End -->
                                 <!-- Header Cart Start -->
                                 <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
-                                    <div class="header-icon"><img src="assets/images/icons/cart_5.svg"
+                                    <div class="header-icon"><img src="~/assets/images/icons/cart_5.svg"
                                             class="svg_img header_svg" alt="" /></div>
                                     <span class="ec-btn-title"><span class="ec-cart-count">3</span> item(s) - $350.00</span>
 
@@ -172,8 +194,8 @@
                     <!-- Ec Header Logo Start -->
                     <div class="col">
                         <div class="header-logo">
-                            <a href="/"><img src="assets/images/logo/logo-5.png" alt="Site Logo" /><img
-                                    class="dark-logo" src="assets/images/logo/dark-logo-5.png" alt="Site Logo"
+                            <a href="/"><img src="~/assets/images/logo/logo-5.png" alt="Site Logo" /><img
+                                    class="dark-logo" src="~/assets/images/logo/dark-logo-5.png" alt="Site Logo"
                                     style="display: none;" /></a>
                         </div>
                     </div>
@@ -269,16 +291,16 @@
                                 <li>
                                     <ul class="ec-main-banner w-100">
                                         <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img
-                                                    class="img-responsive" src="assets/images/menu-banner/1.jpg"
+                                                    class="img-responsive" src="~/assets/images/menu-banner/1.jpg"
                                                     alt=""></a></li>
                                         <li><a class="p-0" href="shop-left-sidebar-col-4.html"><img
-                                                    class="img-responsive" src="assets/images/menu-banner/2.jpg"
+                                                    class="img-responsive" src="~/assets/images/menu-banner/2.jpg"
                                                     alt=""></a></li>
                                         <li><a class="p-0" href="shop-right-sidebar-col-3.html"><img
-                                                    class="img-responsive" src="assets/images/menu-banner/3.jpg"
+                                                    class="img-responsive" src="~/assets/images/menu-banner/3.jpg"
                                                     alt=""></a></li>
                                         <li><a class="p-0" href="shop-right-sidebar-col-4.html"><img
-                                                    class="img-responsive" src="assets/images/menu-banner/4.jpg"
+                                                    class="img-responsive" src="~/assets/images/menu-banner/4.jpg"
                                                     alt=""></a></li>
                                     </ul>
                                 </li>
@@ -497,7 +519,7 @@
                                     </ul>
                                 </li>
                                 <li><a class="p-0" href="shop-left-sidebar-col-3.html"><img class="img-responsive"
-                                            src="assets/images/menu-banner/1.jpg" alt=""></a>
+                                            src="~/assets/images/menu-banner/1.jpg" alt=""></a>
                                 </li>
                             </ul>
                         </li>
@@ -688,7 +710,7 @@
                 <ul class="eccart-pro-items">
                     <li>
                         <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="assets/images/product-image/39_1.jpg" alt="product"></a>
+                                src="~/assets/images/product-image/39_1.jpg" alt="product"></a>
                         <div class="ec-pro-content">
                             <a href="single-product-left-sidebar.html" class="cart_pro_title">Instant camera with two album</a>
                             <span class="cart-price"><span>$450</span> x 1</span>
@@ -700,7 +722,7 @@
                     </li>
                     <li>
                         <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="assets/images/product-image/40_1.jpg" alt="product"></a>
+                                src="~/assets/images/product-image/40_1.jpg" alt="product"></a>
                         <div class="ec-pro-content">
                             <a href="product-left-sidebar.html" class="cart_pro_title">Google nest wireless</a>
                             <span class="cart-price"><span>$360</span> x 1</span>
@@ -712,7 +734,7 @@
                     </li>
                     <li>
                         <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="assets/images/product-image/41_1.jpg" alt="product"></a>
+                                src="~/assets/images/product-image/41_1.jpg" alt="product"></a>
                         <div class="ec-pro-content">
                             <a href="product-left-sidebar.html" class="cart_pro_title">Earbuds 3nd generation wireless</a>
                             <span class="cart-price"><span>$30</span> x 1</span>

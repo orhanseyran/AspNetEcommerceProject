@@ -213,6 +213,78 @@ namespace MyMvcAuthApp.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("MyMvcAuthApp.Models.Brand", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Update_At")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Brands");
+                });
+
+            modelBuilder.Entity("MyMvcAuthApp.Models.Cart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("Price")
+                        .HasColumnType("REAL");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ProductName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<double?>("TotalPrice")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("Update_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserAddress")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserEmail")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserPhone")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carts");
+                });
+
             modelBuilder.Entity("MyMvcAuthApp.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -245,10 +317,19 @@ namespace MyMvcAuthApp.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("Category")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Brand")
+                        .HasColumnType("TEXT");
 
-                    b.Property<int?>("CategorysId")
+                    b.Property<string>("Cargo")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("CargoDesi")
+                        .HasColumnType("REAL");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int?>("CategoryId")
                         .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("Create_At")
@@ -266,14 +347,61 @@ namespace MyMvcAuthApp.Migrations
                     b.Property<decimal?>("Price")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Sehir")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ShipDetail")
+                        .HasColumnType("TEXT");
+
                     b.Property<DateTime>("Update_At")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("stock")
+                        .HasColumnType("REAL");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("CategorysId");
+                    b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("MyMvcAuthApp.Models.Slider", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ButtonText")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ButtonUrl")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("LiteTitle")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Title")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("number")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -329,11 +457,9 @@ namespace MyMvcAuthApp.Migrations
 
             modelBuilder.Entity("MyMvcAuthApp.Models.Product", b =>
                 {
-                    b.HasOne("MyMvcAuthApp.Models.Category", "Categorys")
+                    b.HasOne("MyMvcAuthApp.Models.Category", null)
                         .WithMany("Products")
-                        .HasForeignKey("CategorysId");
-
-                    b.Navigation("Categorys");
+                        .HasForeignKey("CategoryId");
                 });
 
             modelBuilder.Entity("MyMvcAuthApp.Models.Category", b =>

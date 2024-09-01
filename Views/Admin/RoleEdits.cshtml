@@ -1,0 +1,30 @@
+@{
+    ViewData["Title"] = "RoleEdit";
+
+}
+
+@model Microsoft.AspNetCore.Identity.IdentityRole
+
+<style>
+  body.dark-only .form-control {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+</style>
+
+
+<div class="row d-flex justify-content-center align-content-center">
+  <h2 class="text-center pt-2">Role Ekle</h2>
+  <div class="col-md-6 mt-2">
+      <form asp-action="RoleEdit"   method="POST">
+  <div class="mb-3">
+        <label asp-for="Name">Role Name</label>
+        <input asp-for="Name" class="form-control" />
+  </div>
+
+  <button type="submit" class="btn btn-primary">Ekle</button>
+</form>
+
+  </div>
+
+</div>

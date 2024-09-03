@@ -260,7 +260,7 @@ namespace auth.Controllers
          var cartItem = new Cart
             {
                 ProductId = product.Id,
-                UserId = "1",
+                UserId = _userManager.GetUserId(User) ?? "0",
                 ProductName = product.Name ?? "",
                 Price = product.Price,
                 UserName = product.UserName,

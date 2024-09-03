@@ -6,6 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace auth.Controllers
 {
+
+    
     public class ShopController : Controller
     {
         public IActionResult Index()

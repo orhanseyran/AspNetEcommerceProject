@@ -10,5 +10,8 @@ namespace MyMvcAuthApp.Models
         public string ? Description { get; set; }
         public string ? ButtonText { get; set; }
         public string ? ButtonUrl { get; set; }
+
+                public DateTime Create_At { get; set; } = DateTime.Now;
+        public DateTime Update_At { get; set; } = DateTime.Now;
     }
 }

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyMvcAuthApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b217125d2389a8a71ea51c9ca784bc73916d3f10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b13b4afee3dff2fbb356906671a5ee7a497b828e")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyMvcAuthApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyMvcAuthApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

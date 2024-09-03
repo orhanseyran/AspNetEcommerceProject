@@ -1,4 +1,6 @@
-
+@{
+    var baseUrl = $"{Context.Request.Scheme}://{Context.Request.Host}{Context.Request.PathBase}";
+}
         <header class="ec-header">
         <!--Ec Header Top Start -->
         <div class="header-top">
@@ -50,14 +52,19 @@
                             <!-- Header User Start -->
                     @if (User.Identity.IsAuthenticated )
                         {
-                            <div class="ec-header-user dropdown">
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                               <div class="ec-header-user dropdown">
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown">
                                     <img src="~/assets/images/icons/user_5.svg" class="svg_img top_svg" alt="User Icon" />
                                     <span class="ec-btn-title">Merhaba, @User.Identity.Name</span>
                                 </button>
+                        
+                                
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                    <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-                                    <li><a class="dropdown-item" href="orders.html">Orders</a></li>
+
+                                    <li><a class="dropdown-item" asp-action="Index" asp-controller="Admin">Yönetim Paneli</a></li>
+
                                         <li class="nav-item">
                                         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
                                             <button  type="submit" class="nav-link btn btn-link text-dark">Çıkış Yap</button>
@@ -65,6 +72,34 @@
                                     </li>
                                 </ul>
                             </div>
+
+                                    }
+
+                                    else
+                                    {
+                            <div class="ec-header-user dropdown">
+                                <button class="dropdown-toggle" data-bs-toggle="dropdown">
+                                    <img src="~/assets/images/icons/user_5.svg" class="svg_img top_svg" alt="User Icon" />
+                                    <span class="ec-btn-title">Merhaba, @User.Identity.Name</span>
+                                </button>
+                        
+                                
+                                <ul class="dropdown-menu dropdown-menu-right">
+
+                                    <li><a class="dropdown-item" >Müşteri Panelim</a></li>
+
+                                        <li class="nav-item">
+                                        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                            <button  type="submit" class="nav-link btn btn-link text-dark">Çıkış Yap</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </div>  
+                                    }
+
+       
+            
+
                         }
                         else
                         {
@@ -117,7 +152,7 @@
                             <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
                                 <div class="header-icon"><img src="~/assets/images/icons/cart_5.svg"
                                         class="svg_img header_svg" alt="" /></div>
-                                <span class="ec-header-count ec-cart-count">3</span>
+                                <span class="ec-header-count ec-cart-count">@ViewBag.Cart.Count</span>
                             </a>
                             <!-- Header Cart End -->
                             <!-- Header menu Start -->
@@ -175,7 +210,7 @@
                                 <a href="#ec-side-cart" class="ec-header-btn ec-side-toggle">
                                     <div class="header-icon"><img src="~/assets/images/icons/cart_5.svg"
                                             class="svg_img header_svg" alt="" /></div>
-                                    <span class="ec-btn-title"><span class="ec-cart-count">3</span> item(s) - $350.00</span>
+                                    <span class="ec-btn-title"><span class="ec-cart-count">@ViewBag.Cart.Count</span> Ürün - @ViewBag.TotalPrice.ToString("#.##0 ₺")</span>
 
                                 </a>
                                 <!-- Header Cart End -->
@@ -704,70 +739,54 @@
         <div class="ec-cart-inner">
             <div class="ec-cart-top">
                 <div class="ec-cart-title">
-                    <span class="cart_title">My Cart</span>
+                    <span class="cart_title">Sepetim</span>
                     <button class="ec-close">×</button>
                 </div>
                 <ul class="eccart-pro-items">
+         
+
+                    @foreach (var cart in ViewBag.Cart)
+                    {
                     <li>
                         <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="~/assets/images/product-image/39_1.jpg" alt="product"></a>
+                                src="@baseUrl/@cart.ImageUrl" alt="product"></a>
                         <div class="ec-pro-content">
-                            <a href="single-product-left-sidebar.html" class="cart_pro_title">Instant camera with two album</a>
-                            <span class="cart-price"><span>$450</span> x 1</span>
+                            <a href="single-product-left-sidebar.html" class="cart_pro_title"> @cart.ProductName</a>
+                            <span class="cart-price"><span>@cart.TotalPrice</span> x @cart.Quantity</span>
                             <div class="qty-plus-minus">
-                                <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
+                                <input class="qty-input" type="text" name="ec_qtybtn" value="@cart.Quantity" />
                             </div>
                             <a href="#" class="remove">×</a>
                         </div>
                     </li>
-                    <li>
-                        <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="~/assets/images/product-image/40_1.jpg" alt="product"></a>
-                        <div class="ec-pro-content">
-                            <a href="product-left-sidebar.html" class="cart_pro_title">Google nest wireless</a>
-                            <span class="cart-price"><span>$360</span> x 1</span>
-                            <div class="qty-plus-minus">
-                                <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
-                            </div>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="product-left-sidebar.html" class="sidecart_pro_img"><img
-                                src="~/assets/images/product-image/41_1.jpg" alt="product"></a>
-                        <div class="ec-pro-content">
-                            <a href="product-left-sidebar.html" class="cart_pro_title">Earbuds 3nd generation wireless</a>
-                            <span class="cart-price"><span>$30</span> x 1</span>
-                            <div class="qty-plus-minus">
-                                <input class="qty-input" type="text" name="ec_qtybtn" value="1" />
-                            </div>
-                            <a href="#" class="remove">×</a>
-                        </div>
-                    </li>
+                        
+                    }
+
+
                 </ul>
             </div>
             <div class="ec-cart-bottom">
                 <div class="cart-sub-total">
                     <table class="table cart-table">
                         <tbody>
-                            <tr>
+                            @* <tr>
                                 <td class="text-left">Sub-Total :</td>
-                                <td class="text-right">$1350.00</td>
-                            </tr>
-                            <tr>
+                                <td class="text-right"> @ViewBag.TotalPrice.ToString("#,## ₺") </td>
+                            </tr> *@
+                            @* <tr>
                                 <td class="text-left">VAT (20%) :</td>
                                 <td class="text-right">$270.00</td>
-                            </tr>
+                            </tr> *@
                             <tr>
-                                <td class="text-left">Total :</td>
-                                <td class="text-right primary-color">$1620.00</td>
+                                <td class="text-left">Toplam Sepet Tutarı:</td>
+                               <td class="text-right"> @ViewBag.TotalPrice.ToString("#. ₺") </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="cart_btn">
-                    <a href="cart.html" class="btn btn-primary">View Cart</a>
-                    <a href="checkout.html" class="btn btn-secondary">Checkout</a>
+                    <a href="cart.html" class="btn btn-primary">Sepete Git</a>
+                    <a href="checkout.html" class="btn btn-secondary">Ödeme Ekranı</a>
                 </div>
             </div>
         </div>

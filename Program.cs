@@ -1,8 +1,15 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MyMvcAuthApp.Data;
+using MyMvcAuthApp.Repository;
+
+using HGO.ASPNetCore.FileManager;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHgoFileManager();
 
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
@@ -22,6 +29,13 @@ builder.Services.AddCors(options =>
         });
 });
 
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IUploadImageRepository, UploadImageRepository>();
+
+
+
+
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -29,6 +43,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
 
 var app = builder.Build();
 
@@ -47,7 +62,9 @@ app.UseCors("AllowAnyOrigin"); // Apply CORS policy before other middleware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+
 app.UseRouting();
+app.UseHgoFileManager();
 
 app.UseAuthorization();
 

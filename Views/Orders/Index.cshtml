@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Index";
+}
+<form asp-action="Create" method="post">
+
+    <div class="form-group">
+        <label>Ürün Resmi</label>
+        <input type="text" id="imageUrl" name="imageUrl" class="form-control" readonly />
+        <button type="button" id="chooseImage" class="btn btn-primary">Resim Seç</button>
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
+
+<script src="/ckfinder/ckfinder.js"></script>
+<script>
+    document.getElementById('chooseImage').onclick = function() {
+        CKFinder.modal({
+            chooseFiles: true,
+            onInit: function(finder) {
+                finder.on('files:choose', function(evt) {
+                    var file = evt.data.files.first();
+                    var output = document.getElementById('imageUrl');
+                    output.value = file.getUrl();
+                });
+            }
+        });
+    };
+</script>

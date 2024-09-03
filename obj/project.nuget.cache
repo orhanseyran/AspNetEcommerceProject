@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "T491UF5qWow=",
+  "dgSpecHash": "C6vo09Uu+2o=",
   "success": true,
   "projectFilePath": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\MyMvcAuthApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\orhan\\.nuget\\packages\\hgo.aspnetcore.filemanager\\1.0.7\\hgo.aspnetcore.filemanager.1.0.7.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -59,7 +60,9 @@
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\8.0.8\\microsoft.aspnetcore.diagnostics.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.8\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.8\\microsoft.aspnetcore.identity.ui.8.0.8.nupkg.sha512",
-    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.27\\microsoft.aspnetcore.mvc.razor.extensions.6.0.27.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\6.0.27\\microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.27.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.27\\microsoft.aspnetcore.razor.language.6.0.27.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.build\\17.8.3\\microsoft.build.17.8.3.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",
@@ -71,7 +74,7 @@
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.8.0\\microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.elfie\\1.0.0\\microsoft.codeanalysis.elfie.1.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.features\\4.8.0\\microsoft.codeanalysis.features.4.8.0.nupkg.sha512",
-    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.24\\microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.27\\microsoft.codeanalysis.razor.6.0.27.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.8.0\\microsoft.codeanalysis.scripting.common.4.8.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.8.0\\microsoft.codeanalysis.workspaces.common.4.8.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.8\\microsoft.data.sqlite.core.8.0.8.nupkg.sha512",
@@ -89,7 +92,7 @@
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.0\\microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
-    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.1\\microsoft.extensions.dependencymodel.8.0.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.8\\microsoft.extensions.fileproviders.embedded.8.0.8.nupkg.sha512",
@@ -119,6 +122,7 @@
     "C:\\Users\\orhan\\.nuget\\packages\\nuget.projectmodel\\6.9.1\\nuget.projectmodel.6.9.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\nuget.protocol\\6.9.1\\nuget.protocol.6.9.1.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\nuget.versioning\\6.9.1\\nuget.versioning.6.9.1.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\sharpcompress\\0.36.0\\sharpcompress.0.36.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.1.6\\sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\sqlitepclraw.core\\2.1.6\\sqlitepclraw.core.2.1.6.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.6\\sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
@@ -149,7 +153,8 @@
     "C:\\Users\\orhan\\.nuget\\packages\\system.text.json\\8.0.4\\system.text.json.8.0.4.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512",
     "C:\\Users\\orhan\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512",
-    "C:\\Users\\orhan\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512"
+    "C:\\Users\\orhan\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\orhan\\.nuget\\packages\\zstdsharp.port\\0.7.4\\zstdsharp.port.0.7.4.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using HGO.ASPNetCore.FileManager;
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -19,6 +21,7 @@
     <!-- site Favicon -->
     <link rel="icon" href="~/assets/images/favicon/favicon-3.png" sizes="32x32" />
     <link rel="apple-touch-icon" href="~/assets/images/favicon/favicon-3.png" />
+
     <meta name="msapplication-TileImage" content="~/assets/images/favicon/favicon-3.png" />
 
     <!-- css Icon Font -->
@@ -37,7 +40,9 @@
   
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-
+    @*HGO.AspNetCore.FileManager Styles*@
+    @this.RenderHgoFileManagerCss(false)
+    @*---------------------------------*@
     
     
 </head>
@@ -72,6 +77,11 @@
     <!-- Main Js -->
     <script src="~/assets/js/vendor/index.js"></script>
     <script src="~/assets/js/demo-5.js"></script>
+        @*HGO.AspNetCore.FileManager Scripts*@
+    @this.RenderHgoFileManagerJavaScripts()
+    @*----------------------------------*@
+
     @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

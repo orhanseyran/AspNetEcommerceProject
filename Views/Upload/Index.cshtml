@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+@* <form asp-action="Upload" method="post" enctype="multipart/form-data">
+Resim yükle
+    <input asp-for="Image" type="file" />
+    <button type="submit" >Ekle</button>
+</form> <br *@
+@if (TempData["Onay"] != null)
+{
+  @TempData["Onay"] 
+}
+
+<form action="/Upload/UploadImages" method="post" enctype="multipart/form-data">
+    <input type="file" name="images" multiple />
+    <button type="submit">Upload Images</button>
+</form>
+
+

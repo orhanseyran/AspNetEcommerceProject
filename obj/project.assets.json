@@ -2,6 +2,26 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "HGO.ASPNetCore.FileManager/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "6.0.27",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Microsoft.Extensions.FileProviders.Embedded": "8.0.3",
+          "Newtonsoft.Json": "13.0.3",
+          "SharpCompress": "0.36.0"
+        },
+        "compile": {
+          "lib/net6.0/HGO.ASPNetCore.FileManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/HGO.ASPNetCore.FileManager.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -688,7 +708,44 @@
           "buildMultiTargeting/Microsoft.AspNetCore.Identity.UI.targets": {}
         }
       },
-      "Microsoft.AspNetCore.Razor.Language/6.0.24": {
+      "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.27": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Razor.Language": "6.0.27",
+          "Microsoft.CodeAnalysis.Razor": "6.0.27"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.27": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Razor.Extensions": "6.0.27",
+          "Microsoft.CodeAnalysis.Razor": "6.0.27",
+          "Microsoft.Extensions.DependencyModel": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ],
+        "build": {
+          "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets": {}
+        }
+      },
+      "Microsoft.AspNetCore.Razor.Language/6.0.27": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {}
@@ -1081,10 +1138,10 @@
           }
         }
       },
-      "Microsoft.CodeAnalysis.Razor/6.0.24": {
+      "Microsoft.CodeAnalysis.Razor/6.0.27": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.Razor.Language": "6.0.24",
+          "Microsoft.AspNetCore.Razor.Language": "6.0.27",
           "Microsoft.CodeAnalysis.CSharp": "4.0.0",
           "Microsoft.CodeAnalysis.Common": "4.0.0"
         },
@@ -1471,7 +1528,7 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
         "type": "package",
         "compile": {
           "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
@@ -1951,6 +2008,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/NuGet.Versioning.dll": {}
+        }
+      },
+      "SharpCompress/0.36.0": {
+        "type": "package",
+        "dependencies": {
+          "ZstdSharp.Port": "0.7.4"
+        },
+        "compile": {
+          "lib/net8.0/SharpCompress.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/SharpCompress.dll": {}
         }
       },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
@@ -2583,10 +2652,34 @@
             "rid": "win"
           }
         }
+      },
+      "ZstdSharp.Port/0.7.4": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ZstdSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ZstdSharp.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "HGO.ASPNetCore.FileManager/1.0.7": {
+      "sha512": "2E1bllHUuzYCvwUn9F60q+A3wvV54cugTrXUI36Gn+c6dZSYbv/mZxLz9ShPN1CA2L9wGuxWlhcGhLiE9kB1QQ==",
+      "type": "package",
+      "path": "hgo.aspnetcore.filemanager/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Logo.png",
+        "README.md",
+        "hgo.aspnetcore.filemanager.1.0.7.nupkg.sha512",
+        "hgo.aspnetcore.filemanager.nuspec",
+        "lib/net6.0/HGO.ASPNetCore.FileManager.dll",
+        "lib/net6.0/HGO.ASPNetCore.FileManager.xml"
+      ]
+    },
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -3519,17 +3612,48 @@
         "staticwebassets/V5/lib/jquery/dist/jquery.min.map"
       ]
     },
-    "Microsoft.AspNetCore.Razor.Language/6.0.24": {
-      "sha512": "kBL6ljTREp/3fk8EKN27mrPy3WTqWUjiqCkKFlCKHUKRO3/9rAasKizX3vPWy4ZTcNsIPmVWUHwjDFmiW4MyNA==",
+    "Microsoft.AspNetCore.Mvc.Razor.Extensions/6.0.27": {
+      "sha512": "trwJhFrTQuJTImmixMsDnDgRE8zuTzAUAot7WqiUlmjNzlJWLOaXXBpeA/xfNJvZuOsyGjC7RIzEyNyDGhDTLg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.razor.language/6.0.24",
+      "path": "microsoft.aspnetcore.mvc.razor.extensions/6.0.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll",
+        "microsoft.aspnetcore.mvc.razor.extensions.6.0.27.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.extensions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation/6.0.27": {
+      "sha512": "C6Gh/sAuUACxNtllcH4ZniWtPcGbixJuB1L5RXwoUe1a1wM6rpQ2TVMWpX2+cgeBj8U/izJyWY+nJ4Lz8mmMKA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.mvc.razor.runtimecompilation/6.0.27",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "build/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
+        "buildTransitive/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.targets",
+        "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.xml",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.6.0.27.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.razor.runtimecompilation.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Razor.Language/6.0.27": {
+      "sha512": "bI1kIZBgx7oJIB7utPrw4xIgcj7Pdx1jnHMTdsG54U602OcGpBzbfAuKaWs+LVdj+zZVuZsCSoRIZNJKTDP7Hw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.razor.language/6.0.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll",
-        "microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
+        "microsoft.aspnetcore.razor.language.6.0.27.nupkg.sha512",
         "microsoft.aspnetcore.razor.language.nuspec"
       ]
     },
@@ -4543,17 +4667,17 @@
         "microsoft.codeanalysis.features.nuspec"
       ]
     },
-    "Microsoft.CodeAnalysis.Razor/6.0.24": {
-      "sha512": "xIAjR6l/1PO2ILT6/lOGYfe8OzMqfqxh1lxFuM4Exluwc2sQhJw0kS7pEyJ0DE/UMYu6Jcdc53DmjOxQUDT2Pg==",
+    "Microsoft.CodeAnalysis.Razor/6.0.27": {
+      "sha512": "NAUvSjH8QY8gPp/fXjHhi3MnQEGtSJA0iRT/dT3RKO3AdGACPJyGmKEKxLag9+Kf2On51yGHT9DEPPnK3hyezg==",
       "type": "package",
-      "path": "microsoft.codeanalysis.razor/6.0.24",
+      "path": "microsoft.codeanalysis.razor/6.0.27",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/netstandard2.0/Microsoft.CodeAnalysis.Razor.dll",
-        "microsoft.codeanalysis.razor.6.0.24.nupkg.sha512",
+        "microsoft.codeanalysis.razor.6.0.27.nupkg.sha512",
         "microsoft.codeanalysis.razor.nuspec"
       ]
     },
@@ -4982,10 +5106,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
-      "sha512": "cjWrLkJXK0rs4zofsK4bSdg+jhDLTaxrkXu4gS6Y7MAlCvRyNNgwY/lJi5RDlQOnSZweHqoyvgvbdvQsRIW+hg==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -5009,7 +5133,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -6183,6 +6307,23 @@
         "nuget.versioning.nuspec"
       ]
     },
+    "SharpCompress/0.36.0": {
+      "sha512": "48am//T6Ou+GmyPmBaxaFN1ym0VNidRcBeANr9+OYTzpKRz8QMGzAkHVkCV30lFQ/gnWqGr50AuebahpG1C6xA==",
+      "type": "package",
+      "path": "sharpcompress/0.36.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/SharpCompress.dll",
+        "lib/net6.0/SharpCompress.dll",
+        "lib/net7.0/SharpCompress.dll",
+        "lib/net8.0/SharpCompress.dll",
+        "lib/netstandard2.0/SharpCompress.dll",
+        "lib/netstandard2.1/SharpCompress.dll",
+        "sharpcompress.0.36.0.nupkg.sha512",
+        "sharpcompress.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "sha512": "BmAf6XWt4TqtowmiWe4/5rRot6GerAeklmOPfviOvwLoF5WwgxcJHAxZtySuyW9r9w+HLILnm8VfJFLCUJYW8A==",
       "type": "package",
@@ -7093,10 +7234,30 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ZstdSharp.Port/0.7.4": {
+      "sha512": "ziptnotpUJr51afwXJQ5Wc03dvDiZAdmxS08s1g7SHn/VzbyZUXdH6yORk/zaNjzUOEE6pVZ0Nqztab0rYROgQ==",
+      "type": "package",
+      "path": "zstdsharp.port/0.7.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/ZstdSharp.dll",
+        "lib/net5.0/ZstdSharp.dll",
+        "lib/net6.0/ZstdSharp.dll",
+        "lib/net7.0/ZstdSharp.dll",
+        "lib/net8.0/ZstdSharp.dll",
+        "lib/netcoreapp3.1/ZstdSharp.dll",
+        "lib/netstandard2.0/ZstdSharp.dll",
+        "lib/netstandard2.1/ZstdSharp.dll",
+        "zstdsharp.port.0.7.4.nupkg.sha512",
+        "zstdsharp.port.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "HGO.ASPNetCore.FileManager >= 1.0.7",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.8",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.8",
       "Microsoft.AspNetCore.Identity.UI >= 8.0.8",
@@ -7155,6 +7316,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "HGO.ASPNetCore.FileManager": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.8, )"

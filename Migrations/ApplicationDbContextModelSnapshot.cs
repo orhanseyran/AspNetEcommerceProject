@@ -233,6 +233,38 @@ namespace MyMvcAuthApp.Migrations
                     b.ToTable("Brands");
                 });
 
+            modelBuilder.Entity("MyMvcAuthApp.Models.Cargo", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CargoDescription")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoImg")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoPhone")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoWebSite")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Update_At")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cargos");
+                });
+
             modelBuilder.Entity("MyMvcAuthApp.Models.Cart", b =>
                 {
                     b.Property<int>("Id")
@@ -252,7 +284,6 @@ namespace MyMvcAuthApp.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("ProductName")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<int>("Quantity")
@@ -271,7 +302,6 @@ namespace MyMvcAuthApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserId")
-                        .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<string>("UserName")
@@ -311,6 +341,121 @@ namespace MyMvcAuthApp.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("MyMvcAuthApp.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CargoAdress")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoDescription")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoImg")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoPhone")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CargoWebSite")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("OrderStatus")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PaymentStatus")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PaymentType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Update_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserAdress")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserEmail")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserNote")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserPhone")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("MyMvcAuthApp.Models.PTO", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Brand")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Category")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ImageUrl")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("Price")
+                        .HasColumnType("REAL");
+
+                    b.Property<DateTime>("Update_At")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<double?>("Views")
+                        .HasColumnType("REAL");
+
+                    b.Property<double?>("stock")
+                        .HasColumnType("REAL");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("PotansiyelMusteriler");
+                });
+
             modelBuilder.Entity("MyMvcAuthApp.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -344,8 +489,8 @@ namespace MyMvcAuthApp.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("TEXT");
 
-                    b.Property<decimal?>("Price")
-                        .HasColumnType("TEXT");
+                    b.Property<double?>("Price")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Sehir")
                         .HasColumnType("TEXT");
@@ -384,6 +529,9 @@ namespace MyMvcAuthApp.Migrations
                     b.Property<string>("ButtonUrl")
                         .HasColumnType("TEXT");
 
+                    b.Property<DateTime>("Create_At")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("Description")
                         .HasColumnType("TEXT");
 
@@ -394,6 +542,9 @@ namespace MyMvcAuthApp.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Update_At")
                         .HasColumnType("TEXT");
 
                     b.Property<int>("number")

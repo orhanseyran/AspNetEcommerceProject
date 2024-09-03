@@ -1,0 +1,40 @@
+﻿@using HGO.ASPNetCore.FileManager.ViewComponentsModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+     <main role="main" class="pb-3">
+             @await Component.InvokeAsync("FileManagerComponent", new FileManagerModel()
+              {
+                  Id = "FM1", //an application-wide unique ID
+                  RootFolder = AppDomain.CurrentDomain.BaseDirectory, //your desired path on server
+                  ApiEndPoint = Url.Action("HgoApi"), //Url of previously created action method
+                  Config = new FileManagerConfig() // othe configuration 
+              })
+        </main>
+
+    <script>
+        function getSelectedItems(itemType) {
+            let fileManager = HgoFileManager.selectById("FM1");
+            let selections = fileManager.getSelectedItemsPath(itemType);
+            if (selections && selections.length > 0) {
+                alert(selections);
+            }
+            else {
+                fileManager.showToastify("Please select an item");
+            }
+        }
+
+        function AddNewButtonToMenu() {
+            let fileManager = HgoFileManager.selectById("FM1");
+            fileManager.addButtonToMenu("Open 'refs' Folder", (e) => fileManager.getFolderContent('Root\\refs'));
+            alert('New button has been added to menu!');
+        }
+
+        function AddNewItemToContextMenu() {
+            let fileManager = HgoFileManager.selectById("FM1");
+            fileManager.contextMenu.items.push({ text: 'Hello', onclick: (e) => alert('Hello!') });
+            alert('New item has been added to context menu!');
+        }
+    </script>

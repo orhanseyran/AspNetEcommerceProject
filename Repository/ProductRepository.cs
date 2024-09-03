@@ -23,8 +23,9 @@ namespace MyMvcAuthApp.Repository
         {
             return await _context.Products.ToListAsync();
         }
-        public async Task<Product> GetById(int id)
+        public async Task<Product?> GetById(int? id)
         {
+     
             return await _context.Products.FindAsync(id);
         }
         public async Task Add(Product product)

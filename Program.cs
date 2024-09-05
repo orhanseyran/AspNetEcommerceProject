@@ -2,10 +2,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MyMvcAuthApp.Data;
 using MyMvcAuthApp.Repository;
-
 using HGO.ASPNetCore.FileManager;
-
-
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -32,19 +30,23 @@ builder.Services.AddCors(options =>
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUploadImageRepository, UploadImageRepository>();
 
+// Configure authentication cookies and paths
 
-
-
-
+// Handle exceptions and identity configuration
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddSignInManager()
     .AddRoles<IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-
-
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = "/Auth/Login"; // Giriş sayfası
+    options.AccessDeniedPath = "/"; // Ana sayfaya yönlendir
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -62,11 +64,13 @@ app.UseCors("AllowAnyOrigin"); // Apply CORS policy before other middleware
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-
 app.UseRouting();
-app.UseHgoFileManager();
 
+// Add authentication before authorization
+app.UseAuthentication(); // Ensure this is placed before authorization
 app.UseAuthorization();
+
+app.UseHgoFileManager();
 
 app.MapControllerRoute(
     name: "default",

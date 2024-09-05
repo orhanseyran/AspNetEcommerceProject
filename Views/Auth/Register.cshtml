@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Register";
+}
+@model LoginRegister
+ <section class="ec-page-content section-space-p">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="section-title">
+                        <h2 class="ec-bg-title">Üye Ol</h2>
+                        <h2 class="ec-title">Üye Ol</h2>
+                
+                    </div>
+                </div>
+                <div class="ec-login-wrapper">
+                    <div class="ec-login-container">
+                        <div class="ec-login-form">
+                            <form asp-action="RegisterPost" method="post">
+                                <span class="ec-login-wrap">
+                                    <label>Ad Soyad</label>
+                                    <input type="text" asp-for="Username" placeholder="Ad Soyad..." required />
+                                </span>
+                                <span class="ec-login-wrap">
+                                    <label>Email *</label>
+                                    <input type="text" asp-for="Email" placeholder="Enter Adresiniz..." required />
+                                </span>
+                                <span class="ec-login-wrap">
+                                    <label>Şifre*</label>
+                                    <input type="password" asp-for="Password" placeholder="Şifrenizi Giriniz " required />
+                                </span>
+                                <span class="ec-login-wrap ec-login-fp">
+                                    <label><a href="#">Şifremi Unuttum ?</a></label>
+                                </span>
+                                <span class="ec-login-wrap ec-login-btn">
+                                    <button class="btn btn-primary" type="submit">Üye Ol</button>
+                                    <a href="register.html" class="btn btn-secondary">Giriş Yap</a>
+                                </span>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

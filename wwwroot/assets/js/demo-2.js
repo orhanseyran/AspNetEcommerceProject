@@ -228,15 +228,7 @@ function ecCheckCookie()
         var p_html = '<li>'+
                         '<a href="product.html" class="sidecart_pro_img"><img src="'+ img_url +'" alt="product"></a>'+
                         '<div class="ec-pro-content">'+
-                            '<a href="product.html" class="cart_pro_title">'+ p_name +'</a>'+
-                        '<span class="cart-price"><span>'+ p_price +'</span> x 1</span>'+
-                            '<div class="qty-plus-minus"><div class="dec ec_qtybtn">-</div>'+
-                                '<input class="qty-input" type="text" name="ec_qtybtn" value="1">'+
-                            '<div class="inc ec_qtybtn">+</div></div>'+
-                            '<a href="javascript:void(0)" class="remove">×</a>'+
-                        '</div>'+
-                    '</li>';
-
+          
         $('.eccart-pro-items').append(p_html);    
         
     });

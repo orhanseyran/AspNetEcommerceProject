@@ -59728,12 +59728,12 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\058f52f9-548f-4353-a24a-ba72e9dfbb2e.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\11d32cde-ad41-45ec-8577-98fd5d066ba7.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/058f52f9-548f-4353-a24a-ba72e9dfbb2e.png</RelativePath>
+      <RelativePath>images/11d32cde-ad41-45ec-8577-98fd5d066ba7.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59742,14 +59742,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\058f52f9-548f-4353-a24a-ba72e9dfbb2e.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\11d32cde-ad41-45ec-8577-98fd5d066ba7.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\0c65d74b-5428-45d8-91b7-b172fe807f9a.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\160ec404-4250-4dc6-a2a9-13f60432d1e9.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/0c65d74b-5428-45d8-91b7-b172fe807f9a.png</RelativePath>
+      <RelativePath>images/160ec404-4250-4dc6-a2a9-13f60432d1e9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59758,14 +59758,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\0c65d74b-5428-45d8-91b7-b172fe807f9a.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\160ec404-4250-4dc6-a2a9-13f60432d1e9.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\382ad149-69f8-495a-b67b-1fdc11ef7066.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/382ad149-69f8-495a-b67b-1fdc11ef7066.jpg</RelativePath>
+      <RelativePath>images/254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59774,14 +59774,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\382ad149-69f8-495a-b67b-1fdc11ef7066.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4b830fbd-1752-40d2-b76d-254ee434e8bb.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\60db452e-6be5-418b-9bc4-4705556d19ca.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/4b830fbd-1752-40d2-b76d-254ee434e8bb.png</RelativePath>
+      <RelativePath>images/60db452e-6be5-418b-9bc4-4705556d19ca.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59790,14 +59790,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\4b830fbd-1752-40d2-b76d-254ee434e8bb.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\60db452e-6be5-418b-9bc4-4705556d19ca.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\672f418a-9c34-4412-b5f4-aa103dd725b4.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\636656c9-3710-4d91-9670-db7c85c2ce4c.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/672f418a-9c34-4412-b5f4-aa103dd725b4.png</RelativePath>
+      <RelativePath>images/636656c9-3710-4d91-9670-db7c85c2ce4c.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59806,14 +59806,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\672f418a-9c34-4412-b5f4-aa103dd725b4.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\636656c9-3710-4d91-9670-db7c85c2ce4c.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\85707331-ac1d-43b9-ab8e-ebc8cb9fddc2.jpeg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7a73f2f9-318c-46d5-90b9-99c13ad3c812.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/85707331-ac1d-43b9-ab8e-ebc8cb9fddc2.jpeg</RelativePath>
+      <RelativePath>images/7a73f2f9-318c-46d5-90b9-99c13ad3c812.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59822,14 +59822,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\85707331-ac1d-43b9-ab8e-ebc8cb9fddc2.jpeg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\7a73f2f9-318c-46d5-90b9-99c13ad3c812.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\95cf6d57-be5e-4d65-bfb7-5b2db08489e8.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\843e9f02-6fa1-45e6-a624-74810b17e33f.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/95cf6d57-be5e-4d65-bfb7-5b2db08489e8.png</RelativePath>
+      <RelativePath>images/843e9f02-6fa1-45e6-a624-74810b17e33f.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59838,14 +59838,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\95cf6d57-be5e-4d65-bfb7-5b2db08489e8.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\843e9f02-6fa1-45e6-a624-74810b17e33f.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\997564f6-be9e-41a4-a7de-5f1e9ad4e950.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8cbe603d-ab43-41cb-94cc-601b97d1e16e.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/997564f6-be9e-41a4-a7de-5f1e9ad4e950.png</RelativePath>
+      <RelativePath>images/8cbe603d-ab43-41cb-94cc-601b97d1e16e.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59854,14 +59854,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\997564f6-be9e-41a4-a7de-5f1e9ad4e950.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8cbe603d-ab43-41cb-94cc-601b97d1e16e.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a2f3d256-ac8a-4c9a-8bb6-4beb92584b3b.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/a2f3d256-ac8a-4c9a-8bb6-4beb92584b3b.png</RelativePath>
+      <RelativePath>images/8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59870,14 +59870,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a2f3d256-ac8a-4c9a-8bb6-4beb92584b3b.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\adc7fb0f-83ef-4faf-b668-8981898ee3f1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9f8bf457-a616-4cda-8b65-5340b582a16d.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/adc7fb0f-83ef-4faf-b668-8981898ee3f1.png</RelativePath>
+      <RelativePath>images/9f8bf457-a616-4cda-8b65-5340b582a16d.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59886,14 +59886,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\adc7fb0f-83ef-4faf-b668-8981898ee3f1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9f8bf457-a616-4cda-8b65-5340b582a16d.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b3accc2c-818e-49ab-a737-924599eddbf6.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/b3accc2c-818e-49ab-a737-924599eddbf6.png</RelativePath>
+      <RelativePath>images/9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59902,14 +59902,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b3accc2c-818e-49ab-a737-924599eddbf6.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b65d7652-8918-487b-8305-173b10b54f37.jpg))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a53589be-3116-41d2-970a-a90b927b9b8a.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/b65d7652-8918-487b-8305-173b10b54f37.jpg</RelativePath>
+      <RelativePath>images/a53589be-3116-41d2-970a-a90b927b9b8a.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59918,14 +59918,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b65d7652-8918-487b-8305-173b10b54f37.jpg))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\a53589be-3116-41d2-970a-a90b927b9b8a.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b6bd3b86-0146-4587-b117-fb5fe25164b1.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\acc90941-7759-4f0d-b174-0313e790f506.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/b6bd3b86-0146-4587-b117-fb5fe25164b1.png</RelativePath>
+      <RelativePath>images/acc90941-7759-4f0d-b174-0313e790f506.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59934,14 +59934,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b6bd3b86-0146-4587-b117-fb5fe25164b1.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\acc90941-7759-4f0d-b174-0313e790f506.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b8e0c868-c00f-4471-9f2a-feb2b57b27fb.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b4b95c51-46cf-4bdd-916c-3ca8f1091376.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/b8e0c868-c00f-4471-9f2a-feb2b57b27fb.png</RelativePath>
+      <RelativePath>images/b4b95c51-46cf-4bdd-916c-3ca8f1091376.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59950,14 +59950,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b8e0c868-c00f-4471-9f2a-feb2b57b27fb.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b4b95c51-46cf-4bdd-916c-3ca8f1091376.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b9ecbcc5-fdc8-4772-a91e-a51e4ad9c182.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/b9ecbcc5-fdc8-4772-a91e-a51e4ad9c182.png</RelativePath>
+      <RelativePath>images/cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59966,14 +59966,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\b9ecbcc5-fdc8-4772-a91e-a51e4ad9c182.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f17a7265-7373-47c0-97e0-6fc5d619edc2.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/f17a7265-7373-47c0-97e0-6fc5d619edc2.png</RelativePath>
+      <RelativePath>images/d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59982,14 +59982,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\f17a7265-7373-47c0-97e0-6fc5d619edc2.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fede8c3c-6447-4869-a294-6acbb2d11ccf.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e37af55c-68c2-4e10-9a9a-75560e00d531.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>images/fede8c3c-6447-4869-a294-6acbb2d11ccf.png</RelativePath>
+      <RelativePath>images/e37af55c-68c2-4e10-9a9a-75560e00d531.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -59998,14 +59998,14 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\fede8c3c-6447-4869-a294-6acbb2d11ccf.png))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e37af55c-68c2-4e10-9a9a-75560e00d531.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\11d32cde-ad41-45ec-8577-98fd5d066ba7.png))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e41ba698-efac-46c3-a755-264beb54de28.JPG))">
       <SourceType>Package</SourceType>
       <SourceId>MyMvcAuthApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/11d32cde-ad41-45ec-8577-98fd5d066ba7.png</RelativePath>
+      <RelativePath>images/e41ba698-efac-46c3-a755-264beb54de28.JPG</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -60014,279 +60014,7 @@
       <AssetTraitValue></AssetTraitValue>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\11d32cde-ad41-45ec-8577-98fd5d066ba7.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\160ec404-4250-4dc6-a2a9-13f60432d1e9.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/160ec404-4250-4dc6-a2a9-13f60432d1e9.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\160ec404-4250-4dc6-a2a9-13f60432d1e9.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\60db452e-6be5-418b-9bc4-4705556d19ca.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/60db452e-6be5-418b-9bc4-4705556d19ca.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\60db452e-6be5-418b-9bc4-4705556d19ca.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\636656c9-3710-4d91-9670-db7c85c2ce4c.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/636656c9-3710-4d91-9670-db7c85c2ce4c.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\636656c9-3710-4d91-9670-db7c85c2ce4c.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\7a73f2f9-318c-46d5-90b9-99c13ad3c812.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/7a73f2f9-318c-46d5-90b9-99c13ad3c812.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\7a73f2f9-318c-46d5-90b9-99c13ad3c812.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\843e9f02-6fa1-45e6-a624-74810b17e33f.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/843e9f02-6fa1-45e6-a624-74810b17e33f.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\843e9f02-6fa1-45e6-a624-74810b17e33f.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\8cbe603d-ab43-41cb-94cc-601b97d1e16e.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/8cbe603d-ab43-41cb-94cc-601b97d1e16e.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\8cbe603d-ab43-41cb-94cc-601b97d1e16e.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\8d4df01d-0f96-414d-9efd-f8d981d8ea1e.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\9f8bf457-a616-4cda-8b65-5340b582a16d.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/9f8bf457-a616-4cda-8b65-5340b582a16d.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\9f8bf457-a616-4cda-8b65-5340b582a16d.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\a53589be-3116-41d2-970a-a90b927b9b8a.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/a53589be-3116-41d2-970a-a90b927b9b8a.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\a53589be-3116-41d2-970a-a90b927b9b8a.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\acc90941-7759-4f0d-b174-0313e790f506.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/acc90941-7759-4f0d-b174-0313e790f506.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\acc90941-7759-4f0d-b174-0313e790f506.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\b4b95c51-46cf-4bdd-916c-3ca8f1091376.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/b4b95c51-46cf-4bdd-916c-3ca8f1091376.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\b4b95c51-46cf-4bdd-916c-3ca8f1091376.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\cdb9fcf9-010e-410d-a2da-1ebdbb8cf7a9.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\d96388ab-d98a-4e0d-9bc8-2f7f46606fa6.png))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\e37af55c-68c2-4e10-9a9a-75560e00d531.jpg))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/e37af55c-68c2-4e10-9a9a-75560e00d531.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\e37af55c-68c2-4e10-9a9a-75560e00d531.jpg))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\e41ba698-efac-46c3-a755-264beb54de28.JPG))">
-      <SourceType>Package</SourceType>
-      <SourceId>MyMvcAuthApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/MyMvcAuthApp</BasePath>
-      <RelativePath>imagess/e41ba698-efac-46c3-a755-264beb54de28.JPG</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\imagess\e41ba698-efac-46c3-a755-264beb54de28.JPG))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\images\e41ba698-efac-46c3-a755-264beb54de28.JPG))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\js\site.js))">
       <SourceType>Package</SourceType>

@@ -22,7 +22,7 @@
                                     <div class="ec-product-hover"></div>
                                     <div class="ec-pro-image-outer">
                                         <div class="ec-pro-image">
-                                            <a href="product-left-sidebar.html" class="image">
+                                            <a asp-action="Details" asp-controller="Shop" asp-route-id="@pd.Id" class="image">
                                                 <img class="main-image" width="400" height="300" src="@pd.ImageUrl"
                                                     alt="Product" />
                                                 <img class="hover-image" width="400" height="300" src="@pd.ImageUrl"
@@ -49,8 +49,8 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">@pd.Name</a></h5>
-                                        <h6 class="ec-pro-stitle"><a href="shop-left-sidebar-col-3.html">@pd.Category</a></h6>
+                                        <h5 class="ec-pro-title"><a asp-action="Details" asp-controller="Shop" asp-route-id="@pd.Id" >@pd.Name</a></h5>
+                                        <h6 class="ec-pro-stitle"><a href="">@pd.Category</a></h6>
                                         <div class="ec-pro-rat-price">
                                             <div class="ec-pro-rat-pri-inner">
                                                 <span class="ec-price">
@@ -73,8 +73,7 @@
                                                 <a class="ec-btn-group wishlist" title="Wishlist"><img
                                                         src="assets/images/icons/pro_wishlist.svg"
                                                         class="svg_img pro_svg" alt="" /></a>
-                                                <button title="Add To Cart" class="add-to-cart btn btn-primary">Add To
-                                                    Cart</button>
+                                            <a asp-action="Details" asp-controller="Shop" asp-route-id="@pd.Id"><button title="Add To Cart" class="add-to-cart btn btn-primary">İncele</button></a>    
                                                 <a href="#" class="ec-btn-group quickview" data-link-action="quickview"
                                                     title="Quick view" data-bs-toggle="modal"
                                                     data-bs-target="#ec_quickview_modal"><img

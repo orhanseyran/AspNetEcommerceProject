@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace auth.Controllers
 {  
-    [Authorize(Roles = "Admin")]
+[Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
    
@@ -36,6 +36,7 @@ namespace auth.Controllers
 
         public IActionResult Index()
         {
+
             return View();
         }
         public IActionResult Products()
@@ -488,7 +489,7 @@ namespace auth.Controllers
                 return View(addUser);
             }
 
-            var resultAddRole = await _userManager.AddToRoleAsync(user, addUser.Role);
+            var resultAddRole = await _userManager.AddToRoleAsync(user, addUser.Role ?? "User");
             if (!resultAddRole.Succeeded)
             {
                 foreach (var error in resultAddRole.Errors)

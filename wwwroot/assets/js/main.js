@@ -388,6 +388,10 @@ function ecCheckCookie()
 
         var count = $(".cart-count-lable").html();        
         count++;
+        console.log(count);
+        
+       
+        
 
         $(".cart-count-lable").html(count);
 
@@ -408,9 +412,9 @@ function ecCheckCookie()
                         '<div class="ec-pro-content">'+
                             '<a href="product-left-sidebar.html" class="cart_pro_title">'+ p_name +'</a>'+
                         '<span class="cart-price"><span>'+ p_price +'</span> x 1</span>'+
-                            '<div class="qty-plus-minus"><div class="dec ec_qtybtn">-</div>'+
+                            '<div id="eksi" class="qty-plus-minus"><div class="dec ec_qtybtn">-</div>'+
                                 '<input class="qty-input" type="text" name="ec_qtybtn" value="1">'+
-                            '<div class="inc ec_qtybtn">+</div></div>'+
+                            '<div id="artı" class="inc ec_qtybtn">+</div></div>'+
                             '<a href="javascript:void(0)" class="remove">×</a>'+
                         '</div>'+
                     '</li>';

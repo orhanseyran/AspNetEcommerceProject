@@ -29,10 +29,22 @@ public class HomeController : Controller
             var products = await _product.Getir();
 
             var cart = await _db.Carts.Where(id => id.UserId == _userManager.GetUserId(User)).ToListAsync();
-            ViewBag.Cart = cart;
+             ViewBag.Cart = cart;
+            
+
             ViewBag.TotalPrice = Convert.ToDecimal(cart.Sum(item => item.Price));
 
             return View(products);
+        }
+        public async Task<IActionResult> ProductDetail(int id)
+        {
+            var prdouct = await _product.GetById(id);
+                        var cart = await _db.Carts.Where(id => id.UserId == _userManager.GetUserId(User)).ToListAsync();
+             ViewBag.Cart = cart;
+            
+
+            ViewBag.TotalPrice = Convert.ToDecimal(cart.Sum(item => item.Price));
+            return View(prdouct);
         }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

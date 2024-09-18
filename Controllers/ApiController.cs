@@ -17,10 +17,10 @@ namespace MyMvcAuthApp.Controllers
     {
         private readonly IProductRepository _db;
 
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
         private readonly ApplicationDbContext _dbcontext;
-        public ApiController(IProductRepository db, UserManager<IdentityUser> userManager,ApplicationDbContext dbcontext)
+        public ApiController(IProductRepository db, UserManager<ApplicationUser> userManager,ApplicationDbContext dbcontext)
         {
             _db = db;
             _dbcontext = dbcontext;

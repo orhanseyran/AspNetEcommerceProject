@@ -18,9 +18,9 @@ namespace auth.Controllers
     {
         private readonly ApplicationDbContext _db;
             private readonly IProductRepository _product;
-private readonly UserManager<IdentityUser> _userManager;
+private readonly UserManager<ApplicationUser> _userManager;
 
-        public ShopController(ApplicationDbContext db , IProductRepository product , UserManager<IdentityUser> userManager )
+        public ShopController(ApplicationDbContext db , IProductRepository product , UserManager<ApplicationUser> userManager )
         {
             _product = product;
             _userManager = userManager;

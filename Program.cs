@@ -15,17 +15,19 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
-
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 // Identity ve roller için konfigürasyon
-builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
-{
-    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
-    options.Lockout.MaxFailedAccessAttempts = 5;
-    options.Lockout.AllowedForNewUsers = true;
-    options.SignIn.RequireConfirmedAccount = true;
-})
-.AddEntityFrameworkStores<ApplicationDbContext>()
-.AddDefaultTokenProviders();
+// builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+// {
+//     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+//     options.Lockout.MaxFailedAccessAttempts = 5;
+//     options.Lockout.AllowedForNewUsers = true;
+//     options.SignIn.RequireConfirmedAccount = true;
+// })
+// .AddEntityFrameworkStores<ApplicationDbContext>()
+// .AddDefaultTokenProviders();
 
 // CORS politikası - tüm kaynaklara izin ver
 builder.Services.AddCors(options =>

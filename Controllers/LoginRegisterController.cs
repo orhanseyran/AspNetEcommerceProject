@@ -19,13 +19,13 @@ namespace MyMvcAuthApp.Controllers
 
     public class LoginRegisterController : Controller
     {
-        private readonly UserManager<IdentityUser> _userManager;
+        private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ApplicationDbContext _db;
 
         private readonly IConfiguration _configuration;
 
-        public LoginRegisterController(UserManager<IdentityUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext db, IConfiguration configuration)
+        public LoginRegisterController(UserManager<ApplicationUser> userManager, SignInManager<IdentityUser> signInManager, ApplicationDbContext db, IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
@@ -76,6 +76,17 @@ namespace MyMvcAuthApp.Controllers
                 await _userManager.ResetAccessFailedCountAsync(useremail);
 
                 var token = GenerateJwtToken(useremail);
+
+                var usertoken = new ApplicationUser 
+                { 
+                    UserName = token , 
+
+                };
+
+                await _userManager.UpdateAsync(usertoken);
+                
+
+
                  var getuser = await _userManager.GetUserAsync(User);   
 
 

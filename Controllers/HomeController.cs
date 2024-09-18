@@ -14,9 +14,9 @@ public class HomeController : Controller
 {
     private readonly IProductRepository _product;
     private readonly ApplicationDbContext _db;
-    private readonly UserManager<IdentityUser> _userManager;
+    private readonly UserManager<ApplicationUser> _userManager;
 
-    public HomeController(IProductRepository product, ApplicationDbContext db , UserManager<IdentityUser> userManager)
+    public HomeController(IProductRepository product, ApplicationDbContext db , UserManager<ApplicationUser> userManager)
     {
         _userManager = userManager;
         _product = product;

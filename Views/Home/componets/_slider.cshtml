@@ -1,49 +1,31 @@
+  
+
     <div class="ec-main-slider section ">
+
         <div class="ec-slider">
-            <div class="ec-slide-item d-flex slide-1">
+               @foreach (var slider in @ViewBag.Slider)
+               
+              {
+
+            var imageUrl = string.IsNullOrEmpty(slider.ImageUrl) ? "default-image.png" : slider.ImageUrl; // Fallback image
+
+                
+                        <div class="ec-slide-item d-flex slide-1" style="background-image:url('/images/@imageUrl'); background-position: center;">
                 <div class="container align-self-center">
                     <div class="row">
                         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 align-self-center">
                             <div class="ec-slide-content slider-animation">
-                                <h2 class="ec-slide-stitle">new arrival</h2>
-                                <h1 class="ec-slide-title">stylish headphone</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a href="#" class="btn btn-lg btn-secondary">Shop Now</a>
+                                <h2 class="ec-slide-stitle">@slider.LiteTitle</h2>
+                                <h1 class="ec-slide-title">@slider.Title</h1>
+                                <p>@slider.Description</p>
+                                <a href="#" class="btn btn-lg btn-secondary">Satın Al</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="ec-slide-item d-flex slide-2">
-                <div class="container align-self-center">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 align-self-center">
-                            <div class="ec-slide-content slider-animation">
-                                <h2 class="ec-slide-stitle">Trending Item</h2>
-                                <h1 class="ec-slide-title">Motion Camera</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a href="#" class="btn btn-lg btn-secondary">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="ec-slide-item d-flex slide-3">
-                <div class="container align-self-center">
-                    <div class="row">
-                        <div class="col-xl-7 col-lg-7 col-md-7 col-sm-7 align-self-center">
-                            <div class="ec-slide-content slider-animation">
-                                <h2 class="ec-slide-stitle">new arrival</h2>
-                                <h1 class="ec-slide-title">google nest</h1>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                                    Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                                <a href="#" class="btn btn-lg btn-secondary">Shop Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+             }
+
         </div>
     </div>

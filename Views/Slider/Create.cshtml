@@ -1,0 +1,73 @@
+@{
+    ViewData["Title"] = "Create";
+}
+@model Slider
+<div class="container">
+  <div class="row p-5">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="card ">
+        <h4 class="m-4">Marka Ekle</h4>
+        <div class="card-body ">
+            <div class="mb-3">
+                <label for="" class="form-label">Resim Ekle</label>
+                <input
+                    type="file"
+                    class="form-control"
+                    name="sliderImage"
+                />
+                <div id="fileHelpId" class="form-text">Resim Seçiniz</div>
+            </div>
+               <div class="mb-3">
+                <label for="" class="form-label"> Başlık</label>
+                <input
+                 type="text"
+                    class="form-control"
+                    asp-for="Title"
+                    aria-describedby="helpId"
+                    placeholder=""
+                />
+       
+            </div>
+               <div class="mb-3">
+                <label for="" class="form-label">Kısa Başlık</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    asp-for="LiteTitle"
+
+                    aria-describedby="helpId"
+                    placeholder=""
+                />
+       
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Açıklama</label>
+                <textarea class="form-control" asp-for="Description" rows="3"></textarea>
+            </div>
+            
+
+            <div class="mb-3">
+                <label for="" class="form-label">Slider Sırası</label>
+                <input
+                    type="number"
+                    class="form-control"
+                    asp-for="number"
+                    aria-describedby="helpId"
+                    placeholder=""
+                />
+       
+            </div>
+            
+            
+
+
+            <button class="btn btn-outline-primary" type="submit"> Kaydet</button>
+        </div>
+    </div>
+    </form>
+
+
+    
+    
+  </div>    
+</div>

@@ -1,7 +1,7 @@
 @{
     ViewData["Title"] = "Login";
 }
-<h1>Login</h1>
+
 
 @if (TempData["Success"] != null)
 {
@@ -48,8 +48,8 @@
                                     <label><a href="#">Şifremi Unuttum ?</a></label>
                                 </span>
                                 <span class="ec-login-wrap ec-login-btn">
-                                    <button class="btn btn-primary" type="submit">Üye Ol</button>
-                                    <a href="register.html" class="btn btn-secondary">Giriş Yap</a>
+                                    <button class="btn btn-primary" type="submit">Giriş Yap</button>
+                                    <a href="/Auth/Register" class="btn btn-secondary">Üye Ol</a>
                                 </span>
                             </form>
                         </div>

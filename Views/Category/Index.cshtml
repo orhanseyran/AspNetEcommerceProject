@@ -1,3 +1,83 @@
 @{
     ViewData["Title"] = "Index";
 }
+
+@model List<Category>
+@if (TempData["Success"] != null)
+{
+    <br>
+
+
+    <div id="alert" class="container mt-4">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-success" role="alert">
+                    <strong>@TempData["Success"]</strong>
+                </div>
+            </div>
+        </div>
+    </div> 
+      
+}
+              <div class="col-sm-12 pt-2">
+                <div class="card">
+                    <div class="row text-end">
+                        <div class="col-md-12 mt-3 px-5">
+                            <a asp-action="Create" class="btn btn-success">Kategori Ekle</a>
+                        </div>
+                     
+                    </div>
+                    
+ 
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="display" id="basic-1">
+                        <thead>
+                          <tr>
+             
+                            <th>Kategori Adı</th>
+
+                            <th>Yayınlanma Tarihi</th>
+                            <th>Aksiyon</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          @foreach (var get in Model)
+                          {
+                          <tr>
+                            <td>@get.Name</td>
+
+                            <td>@get.Create_At</td>
+                            <td> 
+                              <ul class="action"> 
+                                <li class="edit"> <a asp-action="Edit" asp-route-id="@get.Id"><i class="icon-pencil-alt"></i></a></li>
+                                <li class="delete"><a asp-action="Delete" asp-route-id="@get.Id" ><i class="icon-trash"></i></a></li>
+
+                              </ul>
+                            </td>
+                          </tr>
+                            
+                          }
+
+
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+
+
+    <!-- Plugins JS start-->
+
+
+    <!-- Plugins JS Ends-->
+    <!-- Theme js-->
+
+<script>
+        setTimeout(function() {
+            document.getElementById('alert').style.display = "none";
+        }, 3000); // 5000 milisaniye = 5 saniye
+    
+</script>

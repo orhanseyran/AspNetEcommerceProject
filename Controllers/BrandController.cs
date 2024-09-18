@@ -71,16 +71,28 @@ namespace MyMvcAuthApp.Controllers
             }
             return View(brand);
         }
+        
         [HttpGet]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            var brand = _db.Brands.Find(id);
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var brand = await _db.Brands.FindAsync(id);
+
             if (brand == null)
             {
                 return NotFound();
             }
-            _db.Brands.Remove(brand);
-            return View(brand);
+            else
+            {
+                _db.Brands.Remove(brand);
+                await _db.SaveChangesAsync();
+                TempData["Success"] = "Marka Başarıyla Silindi";
+                return RedirectToAction("Index");
+            }
+          
         }
     }
 }

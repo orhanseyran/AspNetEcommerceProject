@@ -11,7 +11,7 @@ namespace MyMvcAuthApp.Controllers
 {
            [Authorize(Roles = "Admin")]
 
-      [Route("Admin/Category")]
+
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _db;
@@ -35,6 +35,12 @@ namespace MyMvcAuthApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
         {
+            var Category = _db.Categories.FirstOrDefault(c => c.Name == category.Name);
+            if (Category != null)
+            {
+                TempData["Error"] = "Kategori adı daha önce kullanılmış";
+            }
+
             if (ModelState.IsValid)
             {
                 await _db.Categories.AddAsync(category);
@@ -53,6 +59,7 @@ namespace MyMvcAuthApp.Controllers
             {
                 return NotFound();
             }
+            
             var Category = await _db.Categories.FindAsync(id);
             if (Category == null)
             {
@@ -88,6 +95,8 @@ namespace MyMvcAuthApp.Controllers
             }
 
         }
+
+        [HttpGet]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)

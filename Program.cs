@@ -3,53 +3,62 @@ using Microsoft.EntityFrameworkCore;
 using MyMvcAuthApp.Data;
 using MyMvcAuthApp.Repository;
 using HGO.ASPNetCore.FileManager;
-using Microsoft.AspNetCore.Authentication.Cookies;
+using MyMvcAuthApp.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// HGO File Manager'ı ekleyin
 builder.Services.AddHgoFileManager();
 
-// Add services to the container.
+// Veritabanı bağlantısı
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") 
     ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(connectionString));
 
-// CORS policy allowing any origin
+// Identity ve roller için konfigürasyon
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
+{
+    options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+    options.Lockout.MaxFailedAccessAttempts = 5;
+    options.Lockout.AllowedForNewUsers = true;
+    options.SignIn.RequireConfirmedAccount = true;
+})
+.AddEntityFrameworkStores<ApplicationDbContext>()
+.AddDefaultTokenProviders();
+
+// CORS politikası - tüm kaynaklara izin ver
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAnyOrigin",
-        builder =>
+    options.AddPolicy("AllowAllOrigins",
+        policy =>
         {
-            builder.AllowAnyOrigin()
-                   .AllowAnyHeader()
-                   .AllowAnyMethod();
+            policy.AllowAnyOrigin()   // Tüm kaynaklara izin ver
+                  .AllowAnyHeader()   // Tüm başlıklara izin ver
+                  .AllowAnyMethod();  // Tüm HTTP yöntemlerine izin ver
         });
 });
 
+// Repository bağımlılıklarını ekleyin
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IUploadImageRepository, UploadImageRepository>();
 
-// Configure authentication cookies and paths
-
-// Handle exceptions and identity configuration
+// Veritabanı hata ayıklama için developer page filter ekleyin
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddSignInManager()
-    .AddRoles<IdentityRole>()
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-
-builder.Services.AddControllersWithViews();
-builder.Services.AddRazorPages();
+// Giriş ve erişim engellendi sayfalarını yapılandırın
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    options.LoginPath = "/Auth/Login"; // Giriş sayfası
-    options.AccessDeniedPath = "/"; // Ana sayfaya yönlendir
+    options.LoginPath = "/Auth/Login";
+    options.AccessDeniedPath = "/";
 });
+
+// MVC ve Razor sayfaları ekleyin
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
@@ -60,18 +69,21 @@ else
     app.UseHsts();
 }
 
-app.UseCors("AllowAnyOrigin"); // Apply CORS policy before other middleware
+// CORS politikasını uygulayın
+app.UseCors("AllowAllOrigins");
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
 
-// Add authentication before authorization
-app.UseAuthentication(); // Ensure this is placed before authorization
+// Authentication ve Authorization sıralaması
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseHgoFileManager();
 
+// Route yapılandırması
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");

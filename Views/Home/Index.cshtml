@@ -1,13 +1,35 @@
-﻿@{
+﻿@using X.PagedList
+@using X.Web.PagedList
+ 
+ @model IPagedList<Product>
+
+@{
     ViewData["Title"] = "Home Page";
-   
 }
- @model List<Product>
+
 
 
 <partial name="./componets/_slider.cshtml" />
 <partial name="./componets/_category.cshtml" />
 <partial name="./componets/_tabs.cshtml" />
+<div class="d-flex justify-content-center">
+    @Html.PagedListPager(
+        Model, 
+        page => Url.Action("Index", new { page }), 
+        new PagedListRenderOptions
+        {
+            UlElementClasses = new[] { "pagination" }, // Bootstrap ile uyumlu sınıf
+            LiElementClasses = new[] { "page-item" },
+            PageClasses = new[] { "page-link" },
+            
+            DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+            DisplayLinkToLastPage = PagedListDisplayMode.Always,
+            DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+            DisplayLinkToNextPage = PagedListDisplayMode.Always,
+            MaximumPageNumbersToDisplay = 5
+        }
+    )
+</div>
 <partial name="./componets/_banner.cshtml" />
 <partial name="./componets/_features.cshtml" />
 <partial name="./componets/_offer.cshtml" />
@@ -19,3 +41,6 @@
 
 
 
+
+    
+ 

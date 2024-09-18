@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Edit";
+}
+@model Brand
+<div class="container">
+  <div class="row p-5">
+    <form asp-action="Edit" asp-route-id="@Model.Id"   method="post">
+    <div class="card ">
+        <h4 class="m-4">Marka Düzenle</h4>
+        <div class="card-body ">
+            <div class="mb-3 ">
+                <label for="" class="form-label">Marka Adını Düzenle</label>
+                <input
+                    type="text"
+                    class="form-control"
+                    asp-for="Name"
+                    aria-describedby="helpId"
+                    placeholder=""
+                />
+                <small id="helpId" class="form-text text-muted">Marka Adını Giriniz</small>
+            </div>
+
+            <button class="btn btn-outline-primary" type="submit"> Kaydet</button>
+        </div>
+    </div>
+    </form>
+
+
+    
+    
+  </div>    
+</div>

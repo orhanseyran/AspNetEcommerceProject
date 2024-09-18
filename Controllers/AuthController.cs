@@ -64,7 +64,7 @@ namespace MyMvcAuthApp.Controllers
 
         public async Task<IActionResult> Register()
         {
-                       var user = await _userManager.GetUserAsync(User);
+         var user = await _userManager.GetUserAsync(User);
                 if (user != null)
                 {
                     // Eğer kullanıcı oturum açmışsa, Index sayfasına yönlendir

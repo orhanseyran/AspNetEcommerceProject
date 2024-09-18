@@ -106,11 +106,11 @@
                             <div class="ec-header-user dropdown">
                                 <button class="dropdown-toggle" data-bs-toggle="dropdown">
                                     <img src="~/assets/images/icons/user_5.svg" class="svg_img top_svg" alt="User Icon" />
-                                    <span class="ec-btn-title">Login</span>
+                                    <span class="ec-btn-title">Giriş Yap</span>
                                 </button>
                                 <ul class="dropdown-menu dropdown-menu-right">
-                                      <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Üye Ol</a>
-                                      <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Giriş Yap</a>
+                                      <a class="nav-link text-dark" href="/Auth/Register" >Üye Ol</a>
+                                      <a class="nav-link text-dark" href="/Auth/Login" >Giriş Yap</a>
                                 </ul>
                             </div>
                         }
@@ -764,11 +764,12 @@
                             <a href="single-product-left-sidebar.html" class="cart_pro_title"> @cart.ProductName</a>
                             <span class="cart-price"><span>@cart.TotalPrice</span> x @cart.Quantity</span>
                             <div class="qty-plus-minus">
-                                <input class="qty-input" type="text" name="ec_qtybtn" value="@cart.Quantity" />
+                                <input class="qty-input" id="count" type="text" name="ec_qtybtn" value="@cart.Quantity" />
                             </div>
-                            <a href="#" class="remove">×</a>
+                            <a onclick="cartdelete(@cart.Id)"   class="remove">×</a>
                         </div>
                     </li>
+                    
                         
                     }
 
@@ -805,9 +806,52 @@
                 }
 
                 <div class="cart_btn">
-                    <a href="cart.html" class="btn btn-primary">Sepete Git</a>
+                    <a onclick="GoToCart()" class="btn btn-primary">Sepete Git</a>
                     <a href="checkout.html" class="btn btn-secondary">Ödeme Ekranı</a>
                 </div>
             </div>
         </div>
     </div>
+    <script>
+        var GoToCart = () =>{
+           var count = document.getElementById("count").value;
+            fetch(`Api/ProductAddCart/${count}`, {
+            
+                method: 'POST',
+            
+                headers: {
+            
+                    'Content-Type': 'application/json'
+            
+                },
+            
+                body: JSON.stringify()
+            
+            })
+            
+                .then(response => response.json())
+            
+                .then(data => console.log(data))
+            
+                .catch(error => console.log(error));
+        }
+    </script>
+    <script>
+        var cartdelete = (id) => {
+
+         
+            fetch('/Api/CartDelete/'+ id)
+            
+                .then(response =>
+                 response.json()
+                 
+                 )
+            
+                .then(data =>
+                 console.log(data)
+                 )
+            
+                .catch(error => console.log(error));
+       }
+
+    </script>

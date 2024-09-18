@@ -1,7 +1,16 @@
 @{
-    ViewData["Title"] = "Details";
+  ViewData["Title"] = "Details";
+  var totalPrice = Model?.Price ?? 0;
+  var formattedTotalPrice = totalPrice.ToString("C2", new System.Globalization.CultureInfo("tr-TR"));  
 }
+
 @model Product
+
+<div>
+    
+</div>
+
+
 <!-- Ec breadcrumb start -->
     <div class="sticky-header-next-sec  ec-breadcrumb section-space-mb">
         <div class="container">
@@ -29,6 +38,12 @@
     <!-- Sart Single product -->
     <section class="ec-page-content section-space-p">
         <div class="container">
+            <div id="uyarı"
+    class="alert alert-success alert-dismissible fade show"
+    role="alert"
+>
+ 
+</div>
             <div class="row">
                 <div class="ec-pro-rightside ec-common-rightside col-lg-12 col-md-12">
 
@@ -40,10 +55,10 @@
                                     <div class="single-product-scroll">
                                         <div class="single-product-cover">
                                             <div class="single-slide zoom-image-hover">
-                                                <img class="img-responsive" src="~/assets/images/product-360/1_1.jpg"
+                                                <img class="img-responsive" src="@Model.ImageUrl"
                                                     alt="">
                                             </div>
-                                            <div class="single-slide zoom-image-hover">
+                                            @* <div class="single-slide zoom-image-hover">
                                                 <img class="img-responsive" src="~/assets/images/product-360/1_2.jpg"
                                                     alt="">
                                             </div>
@@ -58,14 +73,14 @@
                                             <div class="single-slide zoom-image-hover">
                                                 <img class="img-responsive" src="~/assets/images/product-360/1_5.jpg"
                                                     alt="">
-                                            </div>
+                                            </div> *@
                                         </div>
                                         <div class="single-nav-thumb">
                                             <div class="single-slide">
-                                                <img class="img-responsive" src="~/assets/images/product-360/1_1.jpg"
+                                                <img class="img-responsive" src="@Model.ImageUrl"
                                                     alt="">
                                             </div>
-                                            <div class="single-slide">
+                                            @* <div class="single-slide">
                                                 <img class="img-responsive" src="~/assets/images/product-360/1_2.jpg"
                                                     alt="">
                                             </div>
@@ -80,7 +95,7 @@
                                             <div class="single-slide">
                                                 <img class="img-responsive" src="~/assets/images/product-360/1_5.jpg"
                                                     alt="">
-                                            </div>
+                                            </div> *@
                                         </div>
                                     </div>
                                 </div>
@@ -95,14 +110,14 @@
                                                 <i class="ecicon eci-star fill"></i>
                                                 <i class="ecicon eci-star-o"></i>
                                             </div>
-                                            <span class="ec-read-review"><a href="#ec-spt-nav-review">Be the first to
-                                                    review this product</a></span>
+                                            @* <span class="ec-read-review"><a href="#ec-spt-nav-review">Be the first to
+                                                    review this product</a></span> *@
                                         </div>
                                         @* <div class="ec-single-desc">Lorem Ipsum is simply dummy text of the printing and
                                             typesetting industry. Lorem Ipsum has been the industry's standard dummy
                                             text ever since the 1990</div> *@
 
-                                        <div class="ec-single-sales">
+                                        @* <div class="ec-single-sales">
                                             <div class="ec-single-sales-inner">
                                                 <div class="ec-single-sales-title">sales accelerators</div>
                                                 <div class="ec-single-sales-visitor">Canlı Olarak <span>12</span> Kişi
@@ -117,11 +132,11 @@
                                                     <div class="ec-single-count-desc">Time is Running Out!</div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> *@
                                         <div class="ec-single-price-stoke">
                                             <div class="ec-single-price">
                                                 <span class="ec-single-ps-title">Fiyat</span>
-                                                <span class="new-price">$68.00</span>
+                                                <span class="new-price"> @formattedTotalPrice TL</span>
                                             </div>
                                             <div class="ec-single-stoke">
                                                 <span class="ec-single-ps-title">Stokta</span>
@@ -158,18 +173,33 @@
                                                 <button onclick="ekle()" class="btn btn-primary">Sepete Ekle</button>
                                             </div>
                                             <div class="ec-single-wishlist">
-                                                <a class="ec-btn-group wishlist" title="Wishlist"><img
-                                                        src="~/assets/images/icons/wishlist.svg" class="svg_img pro_svg"
+                                                <a class="ec-btn-group wishlist"id="heart"  onclick="heart()" title="Wishlist"><img  
+                                                        src="~/assets/images/icons/wishlist.svg" id="like" class="svg_img pro_svg"
                                                         alt="" /></a>
                                             </div>
                                             <div class="ec-single-quickview">
-                                                <a href="#" class="ec-btn-group quickview" data-link-action="quickview"
+                                                <a href="#"  class="ec-btn-group quickview" data-link-action="quickview"
                                                     title="Quick view" data-bs-toggle="modal"
                                                     data-bs-target="#ec_quickview_modal"><img
                                                         src="~/assets/images/icons/quickview.svg" class="svg_img pro_svg"
                                                         alt="" /></a>
                                             </div>
                                         </div>
+                                                    <script>
+                                                        const heart = () => {
+                                                            const heart = document.getElementById("heart");
+                                                            const like = document.getElementById("like");
+
+
+                                                            if (heart.style.backgroundColor === "red") {
+                                                                heart.style.backgroundColor = "white";
+                                                                like.style.fill = "black";
+                                                            } else {
+                                                                heart.style.backgroundColor = "red";
+                                                                like.style.fill = "white";
+                                                            }
+                                                        }
+                                                    </script>
                                         <div class="ec-single-social">
                                             <ul class="mb-0">
                                                 <li class="list-inline-item facebook"><a href="#"><i
@@ -203,10 +233,10 @@
                     <a class="nav-link active" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-details"
                         role="tablist">Detay</a>
                 </li>
-                <li class="nav-item">
+                @* <li class="nav-item">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-info"
                         role="tablist">Daha Fazla Bilgi</a>
-                </li>
+                </li> *@
                 <li class="nav-item">
                     <a class="nav-link" data-bs-toggle="tab" data-bs-target="#ec-spt-nav-review"
                         role="tablist">Yorumlar</a>
@@ -216,28 +246,17 @@
         <div class="tab-content ec-single-pro-tab-content">
             <div id="ec-spt-nav-details" class="tab-pane fade show active">
                 <div class="ec-single-pro-tab-desc">
-                    <p>Lorem Ipsum, matbaacılık ve dizgi endüstrisinin basit bir örnek metnidir. Lorem Ipsum, 1500'lerden
-                        beri endüstrinin standart sahte metni olmuştur. Bilinmeyen bir matbaacı bir dizgi yazıcı aldı ve
-                        bir yazı örnek kitabı oluşturmak için karıştırdı. Beş yüzyıldan fazla süredir hayatta kalmış ve
-                        elektronik dizgiye atlamış olmasına rağmen esasen değişmeden kalmıştır.
-                    </p>
-                    <ul>
-                        <li>İstediğiniz Herhangi Bir Ürün Türü - Basit, Yapılandırılabilir</li>
-                        <li>İndirilebilir/Dijital Ürünler, Sanal Ürünler</li>
-                        <li>Geri Sipariş Edilen Ürünler ile Envanter Yönetimi</li>
-                        <li>Her yerde düz dikişler.</li>
-                    </ul>
+                    @Model.Description
+
                 </div>
             </div>
-            <div id="ec-spt-nav-info" class="tab-pane fade">
+            @* <div id="ec-spt-nav-info" class="tab-pane fade">
                 <div class="ec-single-pro-tab-moreinfo">
                     <ul>
-                        <li><span>Ağırlık</span> 1000 g</li>
-                        <li><span>Boyutlar</span> 35 × 30 × 7 cm</li>
-                        <li><span>Renk</span> Siyah, Pembe, Kırmızı, Beyaz</li>
+         
                     </ul>
                 </div>
-            </div>
+            </div> *@
 
             <div id="ec-spt-nav-review" class="tab-pane fade">
                 <div class="row">
@@ -283,7 +302,8 @@
                                 <div class="ec-t-review-bottom">
                                     <p>Lorem Ipsum, matbaacılık ve dizgi endüstrisinin sahte metnidir. Lorem Ipsum,
                                         1500'lerden beri endüstrinin standart sahte metni olmuştur. Bilinmeyen bir
-                        
+                       <div id="uyarı">
+        
 
                     <!-- product details description area end -->
                 </div>
@@ -293,33 +313,54 @@
     </section>
     <!-- End Single product -->
     <script>
-    
+document.getElementById("uyarı").style.display = "none";
 
-        var ekle =   () => {
-                var count =  document.getElementById("count");
-                var inputValue = count.value;
-                fetch(`http://localhost:5272/Api/ProductAddCart/@Model.Id/${inputValue}` , {
-                
-                    method: 'POST',
-                
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                
-                    body: JSON.stringify(
-                        
-                    )
-                
-                })
-                
-                    .then(response => response.json())
-                
-                    .then(data => console.log(data))
-                
-                    .catch(error => console.log(error));
+var ekle = () => {
+    var count = document.getElementById("count");
+    var inputValue = count.value;
+
+    // First fetch to add product to cart
+    fetch(`http://localhost:5272/api/Cart/@Model.Id`)
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("uyarı").innerHTML = `${data[0].productName} Adlı Ürün ${data[0].quantity}  Adet Ürün Sepete Eklendi`;
+            document.getElementById("uyarı").style.display = "block"; // Show alert
+            setTimeout(() => {
+                document.getElementById("uyarı").style.display = "none"; // Hide after 5 seconds
+            }, 10000);
+        })
+        .catch(error => console.log(error));
+
+    // Second fetch to add product with quantity
+    fetch(`http://localhost:5272/Api/ProductAddCart/@Model.Id/${inputValue}`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ quantity: inputValue }) // Send quantity
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Ürün eklenemedi');
         }
+        return response.json(); // Return the response data
+    })
+    .then(data => {
+                    document.getElementById("uyarı").innerHTML = ` Ürün Sepete Eklendi`;
+            document.getElementById("uyarı").style.display = "block"; // Show alert
+            setTimeout(() => {
+                document.getElementById("uyarı").style.display = "none"; // Hide after 5 seconds
+            }, 5000);
 
-    </script>
+        console.log(data); // Log successful response
+    })
+    .catch(error => {
+        console.error(error);
+        alert('Ürün eklenirken bir hata oluştu.'); // Notify user of error
+        window.location.href = "/Auth/Login"; // Redirect on error
+    });
+}
+</script>
 
     <!-- Related Product Start -->
 <section class="section ec-releted-product section-space-p">
@@ -335,13 +376,16 @@
         </div>
         <div class="row margin-minus-b-30">
             <!-- İlgili Ürün İçeriği -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
+            @foreach (var item in @ViewBag.Products)
+            {
+                           <div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 mb-6 pro-gl-content">
                 <div class="ec-product-inner">
+                    <a href="">
                     <div class="ec-pro-image-outer">
                         <div class="ec-pro-image">
                             <a href="product-left-sidebar.html" class="image">
-                                <img class="main-image" src="~/assets/images/product-image/6_1.jpg" alt="Ürün" />
-                                <img class="hover-image" src="~/assets/images/product-image/6_2.jpg" alt="Ürün" />
+                                <img class="main-image" width="300" height="300" src="@item.ImageUrl" alt="Ürün" />
+                                <img class="hover-image" width="300" height="300" src="@item.ImageUrl" alt="Ürün" />
                             </a>
                             <span class="percentage">20%</span>
                             <a href="#" class="quickview" data-link-action="quickview" title="Hızlı Bakış"
@@ -357,8 +401,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="ec-pro-content">
-                        <h5 class="ec-pro-title"><a href="product-left-sidebar.html">Yuvarlak Yaka T-Shirt</a></h5>
+                    </a>
+
+    
+                 <div class="ec-pro-content">
+                        <h5 class="ec-pro-title"><a asp-action="Details" asp-controller="Shop" asp-route-id="@item.Id" >@item.Name</a></h5>
                         <div class="ec-pro-rating">
                             <i class="ecicon eci-star fill"></i>
                             <i class="ecicon eci-star fill"></i>
@@ -366,10 +413,10 @@
                             <i class="ecicon eci-star fill"></i>
                             <i class="ecicon eci-star"></i>
                         </div>
-                        <div class="ec-pro-list-desc">Lorem Ipsum, matbaacılık ve dizgi endüstrisinin sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur. Bilinmeyen bir matbaacı bir dizgi yazıcı aldı ve bir yazı örneği oluşturmak için karıştırdı.</div>
+                        @* <div class="ec-pro-list-desc">Lorem Ipsum, matbaacılık ve dizgi endüstrisinin sahte metnidir. Lorem Ipsum, 1500'lerden beri endüstrinin standart sahte metni olmuştur. Bilinmeyen bir matbaacı bir dizgi yazıcı aldı ve bir yazı örneği oluşturmak için karıştırdı.</div> *@
                         <span class="ec-price">
-                            <span class="old-price">$27.00</span>
-                            <span class="new-price">$22.00</span>
+                            @* <span class="old-price">$27.00</span> *@
+                            <span class="new-price">@item.Price.ToString("C2", new System.Globalization.CultureInfo("tr-TR"))</span>
                         </span>
                         <div class="ec-pro-option">
                             <div class="ec-pro-color">
@@ -400,8 +447,13 @@
                             </div>
                         </div>
                     </div>
+                        
+                  
+  
                 </div>
-            </div>
+            </div> 
+            }
+
 
         </div>
     </div>

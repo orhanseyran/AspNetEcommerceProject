@@ -32,69 +32,7 @@
                       </svg><span class="-3">Ana Sayfa</span></a>
 
                   </li>
-                  @* <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
-                      <svg class="stroke-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#stroke-widget"></use>
-                      </svg>
-                      <svg class="fill-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#fill-widget"></use>
-                      </svg><span class="-6">Widgets</span></a>
-                    <ul class="sidebar-submenu">
-                      <li><a href="general-widget.html">General</a></li>
-                      <li><a href="chart-widget.html">Chart</a></li>
-                    </ul>
-                  </li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
-                      <svg class="stroke-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#stroke-layout"></use>
-                      </svg>
-                      <svg class="fill-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#fill-layout"></use>
-                      </svg><span class="-7">Page layout</span></a>
-                    <ul class="sidebar-submenu">
-                      <li><a href="box-layout.html">Boxed</a></li>
-                      <li><a href="layout-rtl.html">RTL</a></li>
-                      <li><a href="layout-dark.html">Dark Layout</a></li>
-                      <li><a href="hide-on-scroll.html">Hide Nav Scroll</a></li>
-                      <li><a href="footer-light.html">Footer Light</a></li>
-                      <li><a href="footer-dark.html">Footer Dark</a></li>
-                      <li><a href="footer-fixed.html">Footer Fixed</a></li>
-                    </ul>
-                  </li>
-                  <li class="sidebar-main-title">
-                    <div>
-                      <h6 class="-8">Applications</h6>
-                    </div>
-                  </li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack">    </i>
-                    <label class="badge badge-light-secondary">New</label><a class="sidebar-link sidebar-title" href="#">
-                      <svg class="stroke-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#stroke-project"></use>
-                      </svg>
-                      <svg class="fill-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#fill-project"></use>
-                      </svg><span>Project           </span></a>
-                    <ul class="sidebar-submenu">
-                      <li><a href="projects.html">Project List</a></li>
-                      <li><a href="projectcreate.html">Create new</a></li>
-                    </ul>
-                  </li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title link-nav" href="file-manager.html">
-                      <svg class="stroke-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#stroke-file"></use>
-                      </svg>
-                      <svg class="fill-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#fill-file"></use>
-                      </svg><span>File manager</span></a></li>
-                  <li class="sidebar-list"><i class="fa fa-thumb-tack"></i>
-                    <label class="badge badge-light-danger">Latest             </label><a class="sidebar-link sidebar-title link-nav" href="kanban.html">
-                      <svg class="stroke-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#stroke-board"></use>
-                      </svg>
-                      <svg class="fill-icon">
-                        <use href="~/admin/svg/icon-sprite.svg#fill-board"></use>
-                      </svg><span>kanban Board</span></a>
-                  </li> *@
+                  
                   <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
                       <svg class="stroke-icon">
                         <use href="~/admin/svg/icon-sprite.svg#stroke-ecommerce"></use>
@@ -105,25 +43,29 @@
                     <ul class="sidebar-submenu">
                       <li><a href="/Admin/AddProduct">Ürün Ekle</a></li>
                       <li><a asp-action="Products" asp-controller="Admin">Ürünler</a></li>
-                      <li><a href="category.html">Category page</a></li>
-                      <li><a href="product-page.html">Product page</a></li>
-                      <li><a href="list-products.html">Product list</a></li>
+                      <li><a asp-action="Index" asp-controller="Category">Kategoriler</a></li>
+                       <li><a asp-action="Index" asp-controller="Brand">Markalar</a></li>
+                       <li><a asp-action="Index" asp-controller="Category">Kargolar</a></li>
+
                       <li><a  asp-action="Cart" asp-controller="Admin">Sepet Analizi</a></li>
-                      <li><a href="order-history.html">Order History</a></li>
-                      <li><a class="submenu-title" href="#">Invoices<span class="sub-arrow"><i class="fa fa-angle-right"></i></span></a>
-                        <ul class="nav-sub-childmenu submenu-content">
-                          <li><a href="invoice-1.html">Invoice-1</a></li>
-                          <li><a href="invoice-2.html">Invoice-2</a></li>
-                          <li><a href="invoice-3.html">Invoice-3</a></li>
-                          <li><a href="invoice-4.html">Invoice-4</a></li>
-                          <li><a href="invoice-5.html">Invoice-5</a></li>
-                          <li><a href="invoice-template.html">Invoice-6</a></li>
-                        </ul>
-                      </li>
-                      <li><a href="cart.html">Cart</a></li>
-                      <li><a href="list-wish.html">Wishlist</a></li>
-                      <li><a href="checkout.html">Checkout</a></li>
-                      <li><a href="pricing.html">Pricing          </a></li>
+                      <li><a href="order-history.html">Sipariş</a></li>
+    
+    
+                      <li><a href="list-wish.html">Beğeni Listesi</a></li>
+
+                    </ul>
+                  </li>
+                                    <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">
+                      <svg class="stroke-icon">
+                        <use href="~/admin/svg/icon-sprite.svg#stroke-ecommerce"></use>
+                      </svg>
+                      <svg class="fill-icon">
+                        <use href="~/admin/svg/icon-sprite.svg#fill-ecommerce"></use>
+                      </svg><span>Site Yönetimi</span></a>
+                    <ul class="sidebar-submenu">
+                      <li><a asp-action="Index" asp-controller="Slider">Slider Ekle</a></li>
+
+
                     </ul>
                   </li>
                               <li class="sidebar-list"><i class="fa fa-thumb-tack"></i><a class="sidebar-link sidebar-title" href="#">

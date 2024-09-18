@@ -16,6 +16,7 @@ public class Cart
     public string  UserId  { get; set; }
     public int Quantity { get; set; }
     public double ? Price { get; set; }
+    public double ? İpAdres { get; set; }
     public double ? TotalPrice { get; set; }
     public string ProductName { get; set; }
     public string ? ImageUrl { get; set; }

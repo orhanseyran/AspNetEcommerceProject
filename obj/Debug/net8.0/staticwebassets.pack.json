@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\MyMvcAuthApp.bundle.scp.css"
     },
     {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\.gitignore",
+      "PackagePath": "staticwebassets\\.gitignore"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\README.md",
+      "PackagePath": "staticwebassets\\README.md"
+    },
+    {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\admin\\ajax\\api.txt",
       "PackagePath": "staticwebassets\\admin\\ajax\\api.txt"
     },
@@ -14933,8 +14941,16 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\eslint.config.js",
+      "PackagePath": "staticwebassets\\eslint.config.js"
+    },
+    {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\0d17a3f6-8af3-4441-9d58-c99ddc9950c0.jpg",
+      "PackagePath": "staticwebassets\\images\\0d17a3f6-8af3-4441-9d58-c99ddc9950c0.jpg"
     },
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\11d32cde-ad41-45ec-8577-98fd5d066ba7.png",
@@ -14949,12 +14965,36 @@
       "PackagePath": "staticwebassets\\images\\254cae15-72fd-4d0a-9b33-e2eea4721900.jpeg"
     },
     {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\40f0b867-8ff1-45ff-b0a8-bd44eb2f2ecd.jpg",
+      "PackagePath": "staticwebassets\\images\\40f0b867-8ff1-45ff-b0a8-bd44eb2f2ecd.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\55+Hilarious-developer-memes-that-will-leave-you-in-splits-55.jpeg",
+      "PackagePath": "staticwebassets\\images\\55+Hilarious-developer-memes-that-will-leave-you-in-splits-55.jpeg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\5ab0b825-c90d-402b-bc0a-32b2d4d0bda6.jpg",
+      "PackagePath": "staticwebassets\\images\\5ab0b825-c90d-402b-bc0a-32b2d4d0bda6.jpg"
+    },
+    {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\60db452e-6be5-418b-9bc4-4705556d19ca.png",
       "PackagePath": "staticwebassets\\images\\60db452e-6be5-418b-9bc4-4705556d19ca.png"
     },
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\636656c9-3710-4d91-9670-db7c85c2ce4c.png",
       "PackagePath": "staticwebassets\\images\\636656c9-3710-4d91-9670-db7c85c2ce4c.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\6b4dc671-fd51-4dad-b04f-31df08f122f2.png",
+      "PackagePath": "staticwebassets\\images\\6b4dc671-fd51-4dad-b04f-31df08f122f2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\6cbc5f0a-e608-4282-9ddb-4c4e59f227dd.jpg",
+      "PackagePath": "staticwebassets\\images\\6cbc5f0a-e608-4282-9ddb-4c4e59f227dd.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\7734d8ec-4260-4341-9abf-a6a47de886ff.jpg",
+      "PackagePath": "staticwebassets\\images\\7734d8ec-4260-4341-9abf-a6a47de886ff.jpg"
     },
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\7a73f2f9-318c-46d5-90b9-99c13ad3c812.png",
@@ -14979,6 +15019,22 @@
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png",
       "PackagePath": "staticwebassets\\images\\9ffcb72a-4db9-425e-ae20-f2fe7d95630d.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\EnrYhTFXUAA-3nm.jpg",
+      "PackagePath": "staticwebassets\\images\\EnrYhTFXUAA-3nm.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\Group 71.png",
+      "PackagePath": "staticwebassets\\images\\Group 71.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\UC-3b12db5a-82da-4b20-8c76-da759452d87f.jpg",
+      "PackagePath": "staticwebassets\\images\\UC-3b12db5a-82da-4b20-8c76-da759452d87f.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\Uşak, Uşak Ünv. Teknik ve Sosyal Bilimler MYO (2).JPG",
+      "PackagePath": "staticwebassets\\images\\Uşak, Uşak Ünv. Teknik ve Sosyal Bilimler MYO (2).JPG"
     },
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\a53589be-3116-41d2-970a-a90b927b9b8a.png",
@@ -15007,6 +15063,22 @@
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\e41ba698-efac-46c3-a755-264beb54de28.JPG",
       "PackagePath": "staticwebassets\\images\\e41ba698-efac-46c3-a755-264beb54de28.JPG"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\f43f2172-ec95-4ef8-827d-30917f7b88c0.jpg",
+      "PackagePath": "staticwebassets\\images\\f43f2172-ec95-4ef8-827d-30917f7b88c0.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\noimage.png",
+      "PackagePath": "staticwebassets\\images\\noimage.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\images\\tr_logo.png",
+      "PackagePath": "staticwebassets\\images\\tr_logo.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
     },
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\js\\site.js",
@@ -15239,6 +15311,1446 @@
     {
       "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\public\\vite.svg",
+      "PackagePath": "staticwebassets\\public\\vite.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\App.css",
+      "PackagePath": "staticwebassets\\src\\App.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\App.jsx",
+      "PackagePath": "staticwebassets\\src\\App.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\Hooks\\AddToCarts.jsx",
+      "PackagePath": "staticwebassets\\src\\Hooks\\AddToCarts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\Hooks\\LoginRegister.jsx",
+      "PackagePath": "staticwebassets\\src\\Hooks\\LoginRegister.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\Hooks\\Products.jsx",
+      "PackagePath": "staticwebassets\\src\\Hooks\\Products.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\ProductLayout.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\ProductLayout.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\main.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\main.css.map",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\main.css.map"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\animate.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\animate.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\animate.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\animate.min.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\jquery-ui.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\magnific-popup.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\select2.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\select2.min.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\slick.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\slick.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\plugins\\slider-range.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\plugins\\slider-range.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\vendors\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\vendors\\bootstrap.min.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\vendors\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\vendors\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\vendors\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\vendors\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\vendors\\normalize.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\vendors\\normalize.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\css\\vendors\\uicons-regular-straight.css",
+      "PackagePath": "staticwebassets\\src\\assets\\css\\vendors\\uicons-regular-straight.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\fonts\\uicons\\uicons-regular-straight.eot",
+      "PackagePath": "staticwebassets\\src\\assets\\fonts\\uicons\\uicons-regular-straight.eot"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\fonts\\uicons\\uicons-regular-straight.woff",
+      "PackagePath": "staticwebassets\\src\\assets\\fonts\\uicons\\uicons-regular-straight.woff"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\fonts\\uicons\\uicons-regular-straight.woff2",
+      "PackagePath": "staticwebassets\\src\\assets\\fonts\\uicons\\uicons-regular-straight.woff2"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-10.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-10.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-10.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-10.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-11.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-11.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-12.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-12.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-13.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-13.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-14.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-14.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-15.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-15.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-16.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-16.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-17.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-17.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-18.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-18.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-19.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-19.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-7.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-7.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-9.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-9.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\banner-menu.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\banner-menu.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\fillter-widget-bg.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\fillter-widget-bg.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\banner\\popup-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\banner\\popup-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\author-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\author-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\author-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\author-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\author-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\author-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\author-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\author-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-10.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-10.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-11.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-11.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-12.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-12.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-13.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-13.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-14.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-14.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-15.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-15.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-16.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-16.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-17.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-17.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-18.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-18.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-19.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-19.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-20.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-20.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-21.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-21.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-7.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-7.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\blog-9.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\blog-9.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\blog\\header-bg.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\blog\\header-bg.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\invoice\\banner.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\invoice\\banner.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\invoice\\header-bg-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\invoice\\header-bg-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\invoice\\header-bg-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\invoice\\header-bg-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\about-9.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\about-9.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\bg-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\bg-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\contact-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\contact-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\contact-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\contact-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\forgot_password.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\forgot_password.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\guide-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\guide-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\home-6-bg.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\home-6-bg.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\login-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\login-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\page-404.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\page-404.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\page\\reset_password.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\page\\reset_password.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-10.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-10.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-11.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-11.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-12.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-12.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-13.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-13.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-14.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-14.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-15.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-15.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-7.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-7.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\cat-9.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\cat-9.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-1-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-1-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-1-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-1-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-10-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-10-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-10-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-10-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-11-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-11-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-11-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-11-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-12-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-12-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-12-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-12-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-13-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-13-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-13-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-13-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-14-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-14-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-14-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-14-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-15-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-15-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-15-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-15-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-3.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-3.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-4.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-4.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-5.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-5.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-6.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-6.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-16-7.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-16-7.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-2-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-2-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-2-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-2-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-3-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-3-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-3-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-3-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-4-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-4-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-4-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-4-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-5-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-5-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-5-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-5-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-6-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-6-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-6-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-6-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-7-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-7-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-7-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-7-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-8-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-8-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-8-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-8-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-9-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-9-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\product-9-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\product-9-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-1.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-1.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-10.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-10.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-11.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-11.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-12.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-12.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-2.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-2.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-3.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-3.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-4.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-4.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-5.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-5.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-6.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-6.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-7.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-7.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-8.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-8.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\shop\\thumbnail-9.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\shop\\thumbnail-9.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-7.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-7.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\slider\\slider-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\slider\\slider-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\app-store.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\app-store.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\favicon.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\favicon.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\flag-dt.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\flag-dt.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\flag-fr.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\flag-fr.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\flag-ru.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\flag-ru.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\google-play.jpg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\google-play.jpg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-1.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-1.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-10.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-10.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-11.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-11.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-2.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-2.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-3.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-3.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-4.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-4.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-5.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-5.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-6.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-6.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-7.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-7.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-8.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-8.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\category-9.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\category-9.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\coupon.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\coupon.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-1.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-1.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-2.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-2.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-3.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-3.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-4.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-4.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-5.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-5.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-6.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-6.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-bookmark.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-bookmark.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-cart.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-cart.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-clock.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-clock.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-compare.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-compare.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-contact.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-contact.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-download.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-download.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-dribbble.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-dribbble.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-email-2.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-email-2.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-email.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-email.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-facebook-brand.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-facebook-brand.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-facebook-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-facebook-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-facebook.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-facebook.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-headphone-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-headphone-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-headphone.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-headphone.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-heart-2.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-heart-2.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-heart.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-heart.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-hot-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-hot-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-hot.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-hot.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-instagram-brand.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-instagram-brand.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-instagram-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-instagram-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-instagram.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-instagram.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-invoice.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-invoice.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-location.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-location.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-pinterest-brand.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-pinterest-brand.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-pinterest-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-pinterest-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-pinterest.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-pinterest.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-plane.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-plane.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-print.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-print.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-search.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-search.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-twitter-brand.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-twitter-brand.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-twitter-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-twitter-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-twitter.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-twitter.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-user.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-user.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-youtube-brand.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-youtube-brand.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-youtube-white.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-youtube-white.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\icon-youtube.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\icon-youtube.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\logo-apple.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\logo-apple.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\logo-facebook.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\logo-facebook.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\logo-google.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\logo-google.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\payment-master.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\payment-master.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\payment-paypal.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\payment-paypal.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\payment-visa.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\payment-visa.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\payment-zapper.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\payment-zapper.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\phone-call.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\phone-call.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\search.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\search.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\social-fb.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\social-fb.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\social-insta.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\social-insta.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\social-pin.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\social-pin.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\icons\\social-tw.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\icons\\social-tw.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\loading.gif",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\loading.gif"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\logo-2.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\logo-2.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\logo-light.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\logo-light.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\logo.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\logo.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\payment-method.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\payment-method.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\rating-stars.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\rating-stars.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\theme\\wave.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\theme\\wave.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-1.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-1.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-10.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-10.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-11.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-11.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-12.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-12.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-13.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-13.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-14.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-14.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-15.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-15.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-16.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-16.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-17.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-17.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-18.svg",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-18.svg"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-2.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-2.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-3.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-3.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-4.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-4.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-5.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-5.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-6.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-6.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-7.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-7.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-8.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-8.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-9.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-9.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\imgs\\vendor\\vendor-header-bg.png",
+      "PackagePath": "staticwebassets\\src\\assets\\imgs\\vendor\\vendor-header-bg.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\invoice\\html2canvas.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\invoice\\html2canvas.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\invoice\\invoice.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\invoice\\invoice.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\invoice\\jspdf.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\invoice\\jspdf.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\main.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\TweenMax.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\TweenMax.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\counterup.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\counterup.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\custom-parallax.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\custom-parallax.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\images-loaded.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\images-loaded.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\isotope.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\isotope.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery-ui.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery.syotimer.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery.syotimer.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery.theia.sticky.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery.theia.sticky.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\jquery.vticker-min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\jquery.vticker-min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\leaflet.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\leaflet.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\magnific-popup.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\magnific-popup.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\scrollup.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\scrollup.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\slick.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\slick.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\slider-range.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\slider-range.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\waypoints.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\waypoints.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\plugins\\wow.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\plugins\\wow.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\shop.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\shop.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\vendor\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\vendor\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\vendor\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\vendor\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\vendor\\jquery-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\vendor\\jquery-3.6.0.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\vendor\\jquery-migrate-3.3.0.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\js\\vendor\\modernizr-3.6.0.min.js",
+      "PackagePath": "staticwebassets\\src\\assets\\js\\vendor\\modernizr-3.6.0.min.js"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\logo.png",
+      "PackagePath": "staticwebassets\\src\\assets\\logo.png"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\abstracts\\_functions.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\abstracts\\_functions.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\abstracts\\_mixins.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\abstracts\\_mixins.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\abstracts\\_variables.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\abstracts\\_variables.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\base\\_animation.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\base\\_animation.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\base\\_common.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\base\\_common.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\base\\_typography.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\base\\_typography.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_banners.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_banners.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_buttons.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_buttons.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_card.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_form.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_form.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_misc.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_misc.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_slider.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_slider.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\components\\_tabs.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\components\\_tabs.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_footer.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_footer.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_header.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_header.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_navigation.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_navigation.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_responsive.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_responsive.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_sidebar.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\layout\\_spacing.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\layout\\_spacing.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\main.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\main.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_blog.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_blog.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_invoice.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_invoice.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_page.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_page.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_print.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_print.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_shop.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_shop.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\pages\\_vendors.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\pages\\_vendors.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\themes\\_default.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\themes\\_default.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\assets\\sass\\vendors\\_vendors-import.scss",
+      "PackagePath": "staticwebassets\\src\\assets\\sass\\vendors\\_vendors-import.scss"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Blog\\BlogComponets\\Post.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Blog\\BlogComponets\\Post.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Blog\\BlogDetails.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Blog\\BlogDetails.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Blog\\Blogs.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Blog\\Blogs.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Cart\\Carts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Cart\\Carts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Checkout\\Checkouts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Checkout\\Checkouts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Contact\\Contacts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Contact\\Contacts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Footer.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Footer.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Header.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Header.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\HomeComponents\\Deals.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\HomeComponents\\Deals.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\HomeComponents\\MinProduct.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\HomeComponents\\MinProduct.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\HomeComponents\\TrendingProduct.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\HomeComponents\\TrendingProduct.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\LoginRegister\\Login.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\LoginRegister\\Login.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\ProductDeteil\\Components\\Related.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\ProductDeteil\\Components\\Related.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\ProductDeteil\\ProductDetail.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\ProductDeteil\\ProductDetail.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Search.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Search.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Shop\\Components\\ShopProducts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Shop\\Components\\ShopProducts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\Shop\\ShopPage.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\Shop\\ShopPage.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\TrendProducts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\TrendProducts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\_components\\RecentlyAdded\\RecentlAdded.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\_components\\RecentlyAdded\\RecentlAdded.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\_components\\TopRated\\TopRated.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\_components\\TopRated\\TopRated.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\_components\\TopSelling\\TopSelling.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\_components\\TopSelling\\TopSelling.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\components\\_components\\TrendProduct\\TrendProducts.jsx",
+      "PackagePath": "staticwebassets\\src\\components\\_components\\TrendProduct\\TrendProducts.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\imports\\imports.jsx",
+      "PackagePath": "staticwebassets\\src\\imports\\imports.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\index.css",
+      "PackagePath": "staticwebassets\\src\\index.css"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\main.jsx",
+      "PackagePath": "staticwebassets\\src\\main.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Blog.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Blog.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\BlogDetail.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\BlogDetail.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Cart.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Cart.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Checkout.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Checkout.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Contact.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Contact.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Home.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Home.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Product.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Product.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\src\\pages\\Shop.jsx",
+      "PackagePath": "staticwebassets\\src\\pages\\Shop.jsx"
+    },
+    {
+      "Id": "F:\\aspnetderslerim\\PROJE7\\MyMvcAuthApp\\wwwroot\\vite.config.js",
+      "PackagePath": "staticwebassets\\vite.config.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyMvcAuthApp.Microsoft.AspNetCore.StaticWebAssets.props",

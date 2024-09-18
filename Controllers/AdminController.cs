@@ -50,83 +50,139 @@ namespace auth.Controllers
         {
             return View();
         }
-        [HttpPost]
-        public IActionResult AddProduct(Product product)
-        {
-            const string imageFormField = "Image";
-            var imgUpload = Request.Form.Files.GetFiles(imageFormField);
-            
-            // Check if the model state is valid before processing the image
-            if (ModelState.IsValid)
-            {
-                if (imgUpload.Count > 0)
-                {
-                    // Validate file type (e.g., only allow images)
-                    var fileExtension = Path.GetExtension(imgUpload[0].FileName).ToLower();
-                    var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
-                    if (!allowedExtensions.Contains(fileExtension))
-                    {
-                        TempData["erroe"] = "Resim dosyası türü geçersiz. .JPG, .JPEG, .PNG veya .GIF dosyaları yükleyin.";
-                        return View(product);
-                    }
+         [HttpPost]
+    public IActionResult AddProduct(Product product)
+    {
+        // Formdan gelen dosyaları alırken doğru alan adlarını kullandığınızdan emin olun
+        const string mainImageFormField = "Image";
+        const string additionalImagesFormField = "Images"; // "İmages" yerine "Images"
 
-                    // Create a unique file name to prevent overwriting
-                    var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
-                    var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", uniqueFileName);
-                    
-                    try
-                    {
-                        using (var stream = new FileStream(imagePath, FileMode.Create))
-                        {
-                            imgUpload[0].CopyTo(stream);
-                        }
-                        product.ImageUrl = $"/images/{uniqueFileName}";
-                    }
-                    catch (Exception ex)
-                    {
-                        ModelState.AddModelError("", "Error uploading image: " + ex.Message);
-                        return View(product);
-                    }
+        var mainImageFiles = Request.Form.Files.GetFiles(mainImageFormField);
+        var additionalImageFiles = Request.Form.Files.GetFiles(additionalImagesFormField);
+
+        // Model durumu geçerli mi?
+        if (ModelState.IsValid)
+        {
+            // Ana resim işlemleri
+            if (mainImageFiles.Count > 0)
+            {
+                var mainImage = mainImageFiles[0];
+                var fileExtension = Path.GetExtension(mainImage.FileName).ToLower();
+                var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+
+                if (!allowedExtensions.Contains(fileExtension))
+                {
+                    TempData["error"] = "Resim dosyası türü geçersiz. .JPG, .JPEG, .PNG veya .GIF dosyaları yükleyin.";
+                    return View(product);
                 }
 
-                var userId = _userManager.GetUserId(User) ?? "0";
-                var userName = _userManager.GetUserName(User) ?? "0";
-
-                var newProduct = new Product
-                {
-                    Name = product.Name,
-                    Description = product.Description,
-                    Price = product.Price,
-                    ImageUrl = product.ImageUrl,
-                    stock = product.stock,
-                    Brand = product.Brand,
-                    CargoDesi = product.CargoDesi,
-                    Cargo = product.Cargo,
-                    Sehir = product.Sehir,
-                    ShipDetail = product.ShipDetail,
-                    Category = product.Category,
-                    UserId = userId,
-                    UserName = userName,
-                    Create_At = DateTime.Now,
-                    Update_At = DateTime.Now,
-                };
+                var uniqueFileName = Guid.NewGuid().ToString() + fileExtension;
+                var imagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", uniqueFileName);
 
                 try
                 {
-                    _db.Products.Add(newProduct);
-                    _db.SaveChanges();
-                    TempData["success"] = "Ürün başarıyla eklendi.";
-                    return RedirectToAction("Pruducts");
+                    using (var stream = new FileStream(imagePath, FileMode.Create))
+                    {
+                        mainImage.CopyTo(stream);
+                    }
+                    product.ImageUrl = $"/images/{uniqueFileName}";
                 }
                 catch (Exception ex)
                 {
-                    ModelState.AddModelError("", "Error saving product: " + ex.Message);
+                    ModelState.AddModelError("", "Resim yüklenirken bir hata oluştu: " + ex.Message);
                     return View(product);
                 }
             }
 
-            return View(product); // Return the view with the current product data if the model state is invalid
+            // Kullanıcı bilgilerini al
+            var userId = _userManager.GetUserId(User) ?? "0";
+            var userName = _userManager.GetUserName(User) ?? "0";
+
+            // Ürünü veritabanına ekle
+            product.UserId = userId;
+            product.UserName = userName;
+            product.Create_At = DateTime.Now;
+            product.Update_At = DateTime.Now;
+
+            try
+            {
+                _db.Products.Add(product);
+                _db.SaveChanges(); // Ürünün ID'si burada oluşur
+
+                // Ek resimleri işle
+                if (additionalImageFiles.Count > 0)
+                {
+                    var permittedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                    var maxFileSize = 5 * 1024 * 1024; // 5 MB
+                    var imagesToAdd = new List<Images>();
+
+                    foreach (var img in additionalImageFiles)
+                    {
+                        if (img.Length > 0)
+                        {
+                            var extension = Path.GetExtension(img.FileName).ToLower();
+
+                            // Dosya türü kontrolü
+                            if (!permittedExtensions.Contains(extension))
+                            {
+                                TempData["error"] = "Bazı resim dosyası türleri geçersiz.";
+                                continue; // Diğer resimleri işlemeye devam et
+                            }
+
+                            // Dosya boyutu kontrolü
+                            if (img.Length > maxFileSize)
+                            {
+                                TempData["error"] = "Bazı resimler çok büyük. Maksimum 5 MB izin verilmektedir.";
+                                continue;
+                            }
+
+                            var imgName = Guid.NewGuid().ToString() + extension;
+                            var imgPath = Path.Combine("wwwroot", "images", imgName);
+
+                            try
+                            {
+                                using (var stream = new FileStream(imgPath, FileMode.Create))
+                                {
+                                    img.CopyTo(stream);
+                                }
+
+                                var image = new Images
+                                {
+                                  
+                                    ImageUrl = Path.Combine("images", imgName),
+                                    ProductId = product.Id // Ürün ID'sini ilişkilendir
+                                };
+
+                                imagesToAdd.Add(image);
+                            }
+                            catch (Exception ex)
+                            {
+                                // Hata durumunda kullanıcıyı bilgilendirin
+                                ModelState.AddModelError("", $"Resim yüklenirken bir hata oluştu: {ex.Message}");
+                            }
+                        }
+                    }
+
+                    if (imagesToAdd.Any())
+                    {
+                        _db.Images.AddRange(imagesToAdd);
+                        _db.SaveChanges();
+                    }
+                }
+
+                TempData["success"] = "Ürün başarıyla eklendi.";
+                return RedirectToAction("Products"); // Doğru aksiyon adını kullanın
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "Ürün kaydedilirken bir hata oluştu: " + ex.Message);
+                return View(product);
+            }
         }
+
+        // Model durumu geçerli değilse aynı formu geri gönder
+        return View(product);
+    }
         public IActionResult DeleteProduct(int id)
         {
             

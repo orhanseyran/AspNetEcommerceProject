@@ -1,3 +1,4 @@
+@using X.Web.PagedList
     <section class="section ec-product-tab section-space-p">
         <div class="container">
             <div class="row">
@@ -24,6 +25,8 @@
                                         <div class="ec-pro-image">
                                             <a asp-action="Details" asp-controller="Shop" asp-route-id="@pd.Id" class="image">
                                                 <img class="main-image" width="400" height="300" src="@pd.ImageUrl"
+
+
                                                     alt="Product" />
                                                 <img class="hover-image" width="400" height="300" src="@pd.ImageUrl"
                                                     alt="Product" />
@@ -86,7 +89,10 @@
                             </div>
         
     }
+<div>
 
+ 
+</div>
 
 
 

@@ -23,6 +23,7 @@ namespace MyMvcAuthApp.Models
         public string ? Sehir { get; set; } = "DENEME";
 
         public string? Category { get; set; } 
+         public ICollection<Images> ? Images { get; set; }
 
 
 

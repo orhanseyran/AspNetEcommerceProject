@@ -571,3 +571,16 @@ F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\SharpCompress.dll
 F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\ZstdSharp.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\X.PagedList.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\X.Web.PagedList.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\package-lock.json
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\package.json
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+F:\aspnetderslerim\PROJE7\MyMvcAuthApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

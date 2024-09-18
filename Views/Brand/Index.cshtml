@@ -21,6 +21,12 @@
 }
               <div class="col-sm-12 pt-2">
                 <div class="card">
+                                     <div class="row text-end">
+                        <div class="col-md-12 mt-3 px-5">
+                            <a asp-action="Create" class="btn btn-success">Marka Ekle</a>
+                        </div>
+                     
+                    </div>
  
                   <div class="card-body">
                     <div class="table-responsive">
@@ -45,8 +51,8 @@
                             <td>@get.Create_At</td>
                             <td> 
                               <ul class="action"> 
-                                <li class="edit"> <a asp-action="UpdateProduct" asp-route-id="@get.Id"><i class="icon-pencil-alt"></i></a></li>
-                                <li class="delete"><a asp-action="DeleteProduct" asp-route-id="@get.Id" ><i class="icon-trash"></i></a></li>
+                                <li class="edit"> <a asp-action="Edit" asp-route-id="@get.Id"><i class="icon-pencil-alt"></i></a></li>
+                                <li class="delete"><a asp-action="Delete" asp-route-id="@get.Id" ><i class="icon-trash"></i></a></li>
 
                               </ul>
                             </td>
